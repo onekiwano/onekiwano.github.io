@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>About me</title>
+  <meta name="description" content="Phd student in the fields of classical and quantum artificial intelligence.
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="canonical" href="http://localhost:4000/EmmanuelCalvet//about/">
+
+  <link rel="shortcut icon" href="/EmmanuelCalvet//assets/images/favicon.ico">
+<!--  <link rel="stylesheet" href=""> -->
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/EmmanuelCalvet//css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/EmmanuelCalvet//css/print.css" />
+</head>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']],
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+
+
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="/EmmanuelCalvet/" class="logo-readium"><span class="logo" style="background-image: url(/EmmanuelCalvet//assets/images/author.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url(/EmmanuelCalvet//assets/article_images/about/author_full.jpg)">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">About me</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/EmmanuelCalvet//assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Emmanuel Calvet</h4>
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <section class="post-content">
+          <a name="topofpage"></a>
+          <h2 id="summary">Summary</h2>
+<p><em>Thesis title</em> : From circuit to dynamics and performance in tasks, how to design spiking neural networks reservoir without plasticity ?</p>
+
+<p>Ph.D student in Electrical and computing engineering (Université de Sherbrooke).</p>
+
+<ul>
+  <li>Director : Jean Rouat (NECOTIS)</li>
+  <li>Co-director : Bertrand Reulet (IQ)</li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+<p>I am a Ph.D. student at the intersection of three disciplines, namely computational neurosciences, artificial intelligence and physics. My goal is to use concepts from physics to better understand and design machine learning models.</p>
+
+<p>I am working in the field of reservoir computing. It is a somewhat niche branch of artificial intelligence compared to the omnipresent deep learning and artificial networks, but it nonetheless very promising especially when having in mind the intrinsic limitations of these techniques : computational and energy cost.</p>
+
+<p>Deep networks are run on giant GPU clusters, extremely costly both in terms of the technology it uses, its power consumption [1], and the ecological impact [2]. It is striking to see that our brains, only cost 10 to 25 watts, while being able to perform probably more than 10^15 flop operations [3] ! … e.g., we have a huge room for improvement ! Moreover, not only energy is scarce, resources too are, while most of our digital techs rely on extremely rare metals, and mostly found in China’s mine [4]. You have a pretty fragile interdependence chain, subject to many issues, ranging from political to climatic, and well, now we’d have to add sanitary to this non-exhaustive list !</p>
+
+<p>In that context, I see reservoir computing as a serious concurrent for building extremely cheap and potentially ecofrendly computational devices, and you will understand why in a second, after I showed you what it is !</p>
+
+<p>So let’s see how it can work</p>
+
+<ol>
+  <li>Take a bucket of water.</li>
+  <li>Take a camera looking at the surface of the water.</li>
+  <li>Take a computer program analyzing the camera output.</li>
+  <li>Now drop things into the buckets, …</li>
+  <li>Have fun !</li>
+</ol>
+
+<p><img src="/assets/article_images/about/pic0.png" alt="Taken from [5]." /></p>
+
+<p>Tadaa ! There you are, you have a computational device, ready to classify various input data, and capable of performing computation !</p>
+
+<p>You don’t believe me ?! Check this out [6], this is a 2003 study, actually they performed a XOR function with a simple bucket of water and, of course, a computer performing an analysis of the waves pattern at the surface of the water !</p>
+
+<p><img src="/assets/article_images/about/pic1.png" alt="Taken from [5]." /></p>
+
+<h2 id="ai-or-not-ai-that-is-the-question-">AI or not AI, that is the question !</h2>
+<p>Right now you should be wondering what on earth am I doing concretely ? Am I playing with weird physical systems to actually perform computation ? …</p>
+
+<p><img src="/assets/article_images/about/pic2.png" alt="Physical systems used as actual reservoir." /></p>
+
+<p>Well, not really, and before everyone carries its computer within her or his bottle of water, I’d like to say there is still a lot of ongoing improvement with neural networks. The next evolution in AI is currently spiking neural networks. No wonder, they are mimicking real biological ones. They use current only during the short electrical discharge called “action potential,” while their favoured state is silence. The big advantage is that information can be encoded in the time between spikes, the interval of silence between discharges. This is a drastic advantage over the ANN that encodes for rate of discharge in time, which means they require current at each time step !</p>
+
+<p>Now I’ve given two, I believe good reasons, to study reservoir computing with spiking neural networks.</p>
+
+<h2 id="the-actual-real-question-i-am-asking">The actual real question I am asking</h2>
+<p>Well, in fact, before even creating a real physical substrate for a reservoir, we decided to perform a theoretical and simulation-based study of how to design a good reservoir of spiking neural networks, for different types of computational tasks.</p>
+
+<p>My central questions are the following :</p>
+
+<ul>
+  <li>How to design a spiking neural network that is optimally tuned to some specific tasks giving best performances, without any plasticity mechanism in the reservoir ?</li>
+  <li>And the corollary, how to design a reservoir that would be optimally tuned to solve many tasks, while not necessarily being the most accurate in each respective tasks ?</li>
+</ul>
+
+<h3 id="and-how-">And how ?</h3>
+
+<p>So for those how are not familiar with AI, this question can seem a little bit abstract and I will explain to you what it means, and even how this question is relevant in AI :</p>
+
+<h3 id="1-design-of-spiking-neural-networks">1. Design of spiking neural networks</h3>
+<p>First off, we have to understand what is meant by designing a spiking neural network. There are many possible ways of seeing this, but I will narrow it down to two essential parts :</p>
+
+<ul>
+  <li>You have an architecture, which is a directed graph, with nodes and edges. (We call them neurons and synapses.)</li>
+  <li>You have weighted edges, also called synaptic weights, that act as amplification and or inhibitions of the input signals.</li>
+</ul>
+
+<h4 id="problematic-">Problematic :</h4>
+
+<ul>
+  <li>Most if not all studies in the reservoir computing field generate circuits randomly, if a good lot of studies have shown the impact of the various architectures, such as small world, and scale-free topologies, few work has been focusing on the impact of the initialization of weights matrices.</li>
+  <li>In fact, most weight matrices are initialized randomly with very high variability in obtained results !</li>
+</ul>
+
+<p>NB : Now you would have many more things to take into account, like the equation of the neuron, the non-linearity, the threshold, and much more, but to reduce complexity, I decided to use the simplest neural model that possesses none of these parameters, the binary neural model).</p>
+
+<h3 id="2-plasticity">2. Plasticity</h3>
+<p>Second, plasticity is everywhere in neural networks, it is the sacro-saint principle behind any classification and regression, in deep learning, ANN, etc, … And, of course, the brain itself and it’s 40 years of thriving neurosciences are showing how everything is plastic in the circuitry, neurons and synapses.</p>
+
+<h4 id="problematic--1">Problematic :</h4>
+
+<ul>
+  <li>Learning takes time, energy, and lot of work, to design and know what learning rule to apply, with which parameters, etc.</li>
+  <li>People prefer to use learning update rules in reservoirs computing field in order to avoid the random search of these weights matrices, hence removing one of the initially really interesting features of these reservoirs, i.e., you don’t have to train a bucket of water !</li>
+</ul>
+
+<p>So, according to the ground principle in physics, if you can reproduce a result with less complexity in your model/computational system, then you’d probably have a better one. Hence the question, is plasticity always necessary ?</p>
+
+<blockquote>
+  <p>Pratically, can we better design reservoir of spiking neurons without it ?</p>
+</blockquote>
+
+<h2 id="what-do-i-do-">What do I do ?</h2>
+<p>My thesis will try to answer to these questions by exploring many instantaneous weights matrices initialization, and giving a systematic link between circuit properties, dynamics, and performance in specific tasks.</p>
+
+<h2 id="where-am-i-right-now-">Where am I right now ?</h2>
+<p>I am writing my first paper. We have good result and we are almost done with experiments, and soon enough I will submit it for peer reviewing !</p>
+
+<h2 id="references">References</h2>
+<p>[1] https://www.openphilanthropy.org/blog/new-report-brain-computation</p>
+
+<p>[2] https://analyticsindiamag.com/deep-learning-costs-cloud-compute/</p>
+
+<p>[3] https://towardsdatascience.com/compute-and-environmental-costs-of-deep-learning-83255fcabe3c</p>
+
+<p>[4] https://www.azomining.com/Article.aspx?ArticleID=49</p>
+
+<p>[5] Kohei Nakajima, Physical reservoir computing—an introductory perspective, 2020 Jpn. J. Appl. Phys. 59 060501</p>
+
+<p>[6] C. Fernando and S. Sojakka, Lecture Notes in Computer Science 2801 (Springer, Berlin, 2003), p. 588.</p>
+
+
+        </section>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/EmmanuelCalvet//assets/images/coverfractal.png)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Emmanuel Calvet</h1>
+        <h2 class="blog-description">Phd student in the fields of classical and quantum artificial intelligence.
+</h2>
+        <a href="/EmmanuelCalvet/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/EmmanuelCalvet//assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/EmmanuelCalvet//assets/js/index.js"></script>
+<script type="text/javascript" src="/EmmanuelCalvet//assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    $window.on('scroll', function() {
+      var top = $window.scrollTop();
+
+      if (top < 0 || top > 1500) { return; }
+      $image
+        .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+        .css('opacity', 1-Math.max(top/700, 0));
+    });
+    $window.trigger('scroll');
+
+    var height = $('.article-image').height();
+    $('.post-content').css('padding-top', height + 'px');
+
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+       && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({ scrollTop: target.offset().top }, 500);
+          return false;
+        }
+      }
+    });
+  });
+}(jQuery));
+</script>
+
+  </body>
+</html>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+	inlineMath: [ ['$','$'], ['\(', '\)'] ],
+	displayMath: [ ['$$','$$'] ],
+	processEscapes: true,
+  },
+  "HTML-CSS": { availableFonts: ["LaTeX"] }
+});
+</script>

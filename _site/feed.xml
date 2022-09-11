@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emmanuel Calvet</title>
+    <description>Phd student in the fields of classical and quantum artificial intelligence.
+</description>
+    <link>http://localhost:4000/EmmanuelCalvet//</link>
+    <atom:link href="http://localhost:4000/EmmanuelCalvet//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 22 Mar 2022 23:03:37 -0400</pubDate>
+    <lastBuildDate>Tue, 22 Mar 2022 23:03:37 -0400</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>The Physics of Economy: the Surprising Result of a Simple Transaction Model (Part 1)</title>
+        <description>&lt;h2 id=&quot;the-random-transaction-model&quot;&gt;The random transaction model&lt;/h2&gt;
+&lt;p&gt;A couple of months ago, a colleague and I discussed politics, the economy, and ecology. Beyond our different perspectives, we could agree on one point: it looks like we are screwed. My friend and I are students in artificial intelligence, and we are both interested in understanding underlying reasons, and maybe if, beyond our shared beliefs, we were wrong after all?&lt;/p&gt;
+
+&lt;p&gt;So he talked to me about some toy model coded by another friend of his. The model was so simple, and the claimed result was so striking I couldn’t believe it. It was so disturbing that I had to check it myself!&lt;/p&gt;
+
+&lt;p&gt;It’s your turn not to believe me:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Imagine a population of &lt;em&gt;N&lt;/em&gt; agents starting with the same amount of money, let’s say &lt;em&gt;100$&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Next, choose randomly and uniformly two agents for a transaction: &lt;em&gt;agent1&lt;/em&gt; gives a fixed amount to &lt;em&gt;agent2&lt;/em&gt;, let’s say &lt;em&gt;1$&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Now repeat the process over and over.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So this is it, this is the model! Now you might think: “What can you do with such a model?!” If so, this would be close to my initial reaction! Well, wait for it because first I have a question for you:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For a big enough number of iterations, what distribution of wealth would you expect in the end?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you are familiar with the topics of data science, mathematics, or finance, your answer might be: “&lt;strong&gt;a bell curve!&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic1.png&quot; alt=&quot;A typical bell curve; generated in python by the author.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is logical because here, &lt;strong&gt;transactions&lt;/strong&gt; are &lt;em&gt;random&lt;/em&gt;. Some of you might recall the central limit theorem, which, by quoting Wikipedia, states: “When &lt;u&gt;independent random variables are added&lt;/u&gt;, their […] sum tends toward a &lt;u&gt;normal distribution&lt;/u&gt;” i.e., a &lt;strong&gt;bell curve&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-play&quot;&gt;Let’s play!&lt;/h2&gt;
+&lt;p&gt;Alright, let’s start to play with this model. Assume we have &lt;em&gt;1000&lt;/em&gt; agents, and all of them possess &lt;em&gt;100$&lt;/em&gt; at the start.&lt;/p&gt;
+
+&lt;p&gt;NB: Here is a &lt;a href=&quot;https://gist.github.com/ManuNeuro/0144bf2c2fcb5a194c2b25b988c179df/&quot;&gt;link&lt;/a&gt; to my code if you want to try it. You will find a lot of parameters to play with, some of which will be discussed in the following articles!&lt;/p&gt;
+
+&lt;p&gt;I will run &lt;em&gt;50000&lt;/em&gt; iterations; &lt;em&gt;500&lt;/em&gt; random transactions will occur at each iteration. For simplicity, we will have a fixed transaction amount of &lt;em&gt;1$&lt;/em&gt; only. Throughout the article, no debt will be allowed, meaning that an agent will never give anything if its money is &lt;em&gt;0&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;warm-up&quot;&gt;Warm-up&lt;/h3&gt;
+&lt;p&gt;To forge an intuition on how this model works, we start by manually doing the first three iterations. For the sake of simplicity and without loss of generality, we will assume that in each step, the agents are randomly split into two distinct groups: the receivers and the givers. For example, at the first step, &lt;em&gt;500&lt;/em&gt; agents give &lt;em&gt;1$&lt;/em&gt;, and the remaining &lt;em&gt;500&lt;/em&gt; agents receive the given &lt;em&gt;1$&lt;/em&gt;, and so on:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic2.png&quot; alt=&quot;The three first iterations of the model, assuming mutually exclusive givers and receivers groups. In green, the amount of $; P stands for probability. The distribution is symmetric with a higher likelihood at the average; Image created by the author.&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Iteration: the &lt;em&gt;100$&lt;/em&gt; group of iteration &lt;em&gt;0&lt;/em&gt; is cut in half, one half receives &lt;em&gt;1$&lt;/em&gt;, the other gives &lt;em&gt;1$&lt;/em&gt;, hence a probability &lt;em&gt;P&lt;/em&gt; of &lt;em&gt;0.5&lt;/em&gt; for both values, &lt;strong&gt;99$&lt;/strong&gt;(&lt;em&gt;P=0.5&lt;/em&gt;) and &lt;strong&gt;100$&lt;/strong&gt;(&lt;em&gt;P=0.5&lt;/em&gt;).&lt;/li&gt;
+  &lt;li&gt;Iteration : both &lt;strong&gt;99$&lt;/strong&gt; and &lt;strong&gt;100$&lt;/strong&gt; group of iteration &lt;em&gt;1&lt;/em&gt; are cut in half: &lt;strong&gt;99&lt;/strong&gt;(&lt;em&gt;P=0.5&lt;/em&gt;) split in a group of &lt;strong&gt;98&lt;/strong&gt;(&lt;em&gt;0.25&lt;/em&gt;) and &lt;strong&gt;100&lt;/strong&gt;(&lt;em&gt;0.25&lt;/em&gt;); the &lt;strong&gt;101&lt;/strong&gt;(&lt;em&gt;0.5&lt;/em&gt;) group split into &lt;strong&gt;100&lt;/strong&gt;(&lt;em&gt;0.25&lt;/em&gt;), and &lt;strong&gt;102&lt;/strong&gt;(&lt;em&gt;0.25&lt;/em&gt;), hence &lt;em&gt;P&lt;/em&gt;(&lt;strong&gt;100&lt;/strong&gt;)=&lt;em&gt;0.25&lt;/em&gt;+&lt;em&gt;0.25&lt;/em&gt;=&lt;em&gt;0.5&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Iteration: repeat the same process!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These first three iterations drew a distribution that resembles a Gaussian distribution. Indeed it is symmetric around the average (=&lt;em&gt;100$&lt;/em&gt;), and the probability gets higher the closer to the mean. Of course, we assumed that givers and receivers are two distinct groups, but since, in actuality, it is not, the distribution should be smoother. So these first steps seem in agreement with our mathematical intuition:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So, that’s it, problem solved. The final distribution is indeed a bell curve!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Alright, you guessed it: it is not! Otherwise, I would not have written this article in the first place.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-is-it&quot;&gt;So what is it?&lt;/h2&gt;
+&lt;p&gt;Surprisingly, after the &lt;em&gt;50000&lt;/em&gt; iterations, the wealth distribution looks like this :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic3.png&quot; alt=&quot;The probability P of having the amount of money m; generated in python by the author.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The figure shows the money probability distribution for all our &lt;em&gt;1000&lt;/em&gt; agents at the last iteration. The vertical axis displays the probability &lt;strong&gt;P&lt;/strong&gt; or the chance that an arbitrary agent possesses the amount of money &lt;strong&gt;m&lt;/strong&gt; associated with the horizontal axis. So by looking precisely at the probabilities, the highest is obtained for &lt;em&gt;m=0$&lt;/em&gt;, with a value &lt;em&gt;P(0)~0.045&lt;/em&gt;, or &lt;em&gt;4.5%&lt;/em&gt;. As you increase the amount of money, the probability gets lower and lower and converges toward zero.&lt;/p&gt;
+
+&lt;p&gt;What is this distribution, might you ask: &lt;strong&gt;it is exponential!&lt;/strong&gt;&lt;/p&gt;
+
+\[\begin{align*}
+    \LARGE P=e^{a \times m +b}
+\end{align*}\]
+
+&lt;center&gt;&lt;i&gt;The probability of having m$&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic4.png&quot; alt=&quot;Assuming b=0, the only remaining parameter to find is a, using scipy.curve_fit we estimated a=-0.00921. On the left side: the distribution in linear scaling. On the right side: the distribution with a logarithmic scaling on the vertical axis; generated in python by the author.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To confirm this, I displayed the curve with two representations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, you will recognize the plot on the left side, as it is the last curve in blue, with the red dotted curve representing the exponential fitting.&lt;/li&gt;
+  &lt;li&gt;On the right side, a logarithmic scaling is applied to the vertical axis. It is equivalent to passing the probability &lt;em&gt;P(m)&lt;/em&gt; in a 10-base logarithm, such that two numbers, for example, &lt;em&gt;1000=10³&lt;/em&gt; and &lt;em&gt;100=10²&lt;/em&gt;, will be spaced by one unit on the axis it is convenient to compress data that spans long-range values. Mathematically, applying a natural log gives a straight line:&lt;/li&gt;
+&lt;/ol&gt;
+
+\[\begin{align*}
+    \LARGE log(P)=a \times m + b
+\end{align*}\]
+
+&lt;center&gt;&lt;i&gt;As observed in the plot, the exponential distribution should look like a straight line in logarithmic scaling.&lt;/i&gt;&lt;/center&gt;
+
+&lt;p&gt;The parameter $a$ in the equation is equal to one over the average of money possessed by all agents. By getting rid of the sign, we have $|1/a|=&amp;lt;~m&amp;gt; =106$, which is the approximated average money. This approximation from the exponential fitting is not perfect but close to the initial given value. The average is the sum of all money, divided by the number of participants. Since the total amount of money and number of agents stayed the same throughout the simulation. Whatever the shape of the initial and final distribution, we will still get the same average value. So you understand why the average is tricky to interpret.&lt;/p&gt;
+
+&lt;p&gt;To get a better sense of how equally the money is distributed, we can use another tool: &lt;em&gt;the cumulative distribution function&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic5.png&quot; alt=&quot;The probability P that the amount of money M of any agents is inferior or equal to m, displayed in the horizontal axis; generated in python by the author.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With this function, we can now ask interesting questions like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is the chance of having less than 200$?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The answer is straightforward: look at the corresponding point in the vertical axis, and the answer is directly &lt;em&gt;P=0.8&lt;/em&gt; ~&lt;strong&gt;80%!&lt;/strong&gt; You might want to know how many people are under the initial amount of money, &lt;em&gt;100$&lt;/em&gt;, and it is around &lt;strong&gt;60%!&lt;/strong&gt; As I told you earlier, the average is indeed a bit misleading. You would be better off using the median, which precisely gives the amount of money separating the group in half: &lt;strong&gt;75$&lt;/strong&gt;. So as you see, this value is significantly lower than the average.&lt;/p&gt;
+
+&lt;p&gt;As a summary, if you run my code you will obtain the &lt;em&gt;80/20&lt;/em&gt; separation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is 80.4% of people detaining 50.9% of the total wealth, 
+and 19.6% detaining the 49.1% remaining.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;how-is-it-relevant&quot;&gt;How is it relevant?&lt;/h2&gt;
+&lt;p&gt;We have seen a model that considered only uniform random transactions, with an equal amount of money given to every agent at the start. The model describes a very utopian society. Not only does it assume a perfectly egalitarian start. But a uniformly random exchange means there are no preferences in any specific directions, which implies a flatland of people’s attention and needs! A picture far from reality, after all, the probability that Jeff Bezos receives your money, is relatively but surely, biased in his favour! This model removes all attractors of attention: Google, Facebook, Tesla, and sorry Jeff, goodbye space travel! Finally, by saying that everyone has an equal chance of exchanging goods, we are by corollary, removing greed and avarice from the picture. But give the model sufficient time, and it ends up following an exponential distribution! This is why the final result seems very odd. It is in contradiction with our mathematical intuition and generalization capability, and we mourn already:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Damn it, where is the bell curve?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Okay, that’s an inevitable question, and I will try to answer it, but for that, I would need another full article! So instead of going back to the bell curve: imagine a society with a bell curve wealth. First, you would be in the paradise of the middle class. With the Gaussian distribution, the average money represents the most probable amount of money in the population. Second, you would probably end social class clash, too, since the edges of the distribution, e.g., poor and rich, would be equally unlikely events.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, with the exponential distribution, being very poor is the baseline and the most probable state for an agent. You would have half of the population significantly below the average while being rich would be the less likely event. By observing the detailed probability distribution in the log scale, one can note that the probability of being among the richest is of the order &lt;em&gt;1/N&lt;/em&gt; (&lt;em&gt;N&lt;/em&gt; being the number of agents). So the bigger the society, the harder it is to get there! In this asymmetrical reality, extreme poverty is the rule, average wealth is a chance, and being rich remains a dream. Yes, this is a fundamentally different reality from the one described by the Bell curve, and honestly, it might look familiar [2], does it?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Do we find these exponential laws in real-world data?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The answer is &lt;strong&gt;yes!&lt;/strong&gt; I asked permission to show you a powerful result from this article [3]. I am sure it will speak for itself:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic6.png&quot; alt=&quot;Exponential fits on truncated income data for European Union in 2014; taken with permission from [2].&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This article shows how a very simple model of uniformly random exchanges can display a very counter-intuitive result, breaking from a common assumption in probability: the central limit theorem. The intuition indeed suggests that the final distribution must be Gaussian, resulting in a very fair distribution of wealth. Surprisingly, &lt;strong&gt;it is not!&lt;/strong&gt; As I showed, the final distribution is &lt;strong&gt;exponential&lt;/strong&gt;: an unfair distribution that is in striking contrast with the choice of a seemingly very utopian model. We chose the initial condition as an equal amount of money for all agents. And we kept a very minimalist dynamic, where no agents could monopolize attention since it assumes uniform random exchanges. Finally, I explained how these two distributions prescribe a very different societal reality. However, an important question remains:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Why does this model end up with an exponential distribution?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the following article of this series: &lt;em&gt;The Physics of Economy&lt;/em&gt;, I will try to answer this question, and we will see how using statistical physics, this seemingly odd result suddenly becomes a “trivial” textbook exercise!&lt;/p&gt;
+
+&lt;h2 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;Thanks to my colleagues and friends for the review and the valuable comments. Thanks as well to the publishers for the valuable feedback and insightful questions.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;[1] Victor Yakovenko, (2007, Augst, 22). Computer Animation of Money Exchange Models. Econophysics Research by Victor Yakovenko. Retrieved from http://www.physics.umd.edu/~yakovenk/econophysics/&lt;/p&gt;
+
+&lt;p&gt;[2] Max Roser and Esteban Ortiz-Ospina, (2017, March, 27). Global Extreme Poverty. Our World in Data. Retrieved from https://ourworldindata.org/extreme-poverty.&lt;/p&gt;
+
+&lt;p&gt;[3] Tao, Y., Wu, X., Zhou, T. et al. Exponential structure of income inequality: evidence from 67 countries. J Econ Interact Coord 14, 345–376 (2019). https://doi.org/10.1007/s11403-017-0211-6.&lt;/p&gt;
+
+&lt;p&gt;[3] Tao, Y., Wu, X., Zhou, T. et al. Exponential structure of income inequality: evidence from 67 countries. J Econ Interact Coord 14, 345–376 (2019). https://doi.org/10.1007/s11403-017-0211-6.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Nov 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/EmmanuelCalvet//finance/2021/11/17/wealth-distribution-p1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/EmmanuelCalvet//finance/2021/11/17/wealth-distribution-p1.html</guid>
+        
+        
+        <category>Finance</category>
+        
+      </item>
+    
+  </channel>
+</rss>

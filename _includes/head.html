@@ -1,27 +1,32 @@
+
 <head>
-  <meta charset="utf-8">
-  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content={{ page.categories }}>
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  {% if page.favicon %}
+  <link rel="shortcut icon" href="{{ page.favicon | prepend:site.baseurl }}">
+  {% endif %}
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <title>{{ page.urltitle }}</title>
+  <meta name="description" content="{{site.description}}">
 
-  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}">
-<!--  <link rel="stylesheet" href="{{asset "js/styles/obsidian.css"}}"> -->
-  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--Open Graph Related Stuff-->
+  <meta property="og:title" content={{ page.title }}/>
+  <meta property="og:url" content="https://nips2018vigil.github.io"/>
+  <meta property="og:description" content="{{site.description}}"/>
+  <meta property="og:site_name" content={{ page.urltitle }}/>
+  <meta property="og:image" content=""/>
+  <meta property="og:image:url" content=""/>
 
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/main.css"  | prepend: site.baseurl  }}" />
-  <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content={{ page.title }}/>
+  <meta name="twitter:description" content="{{site.description}}"/>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/main.css" | prepend:site.baseurl }}" media="screen,projection">
 </head>
-
-{% include mathjax.html %}

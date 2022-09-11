@@ -16,15 +16,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="canonical" href="http://localhost:4000/EmmanuelCalvet//finance/2021/11/17/wealth-distribution-p1.html">
+  <link rel="canonical" href="http://localhost:4000/onekiwano//finance/2021/11/17/wealth-distribution-p1.html">
 
-  <link rel="shortcut icon" href="/EmmanuelCalvet//assets/images/favicon.ico">
+  <link rel="shortcut icon" href="/onekiwano//assets/images/favicon.ico">
 <!--  <link rel="stylesheet" href=""> -->
   <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" media="screen" href="/EmmanuelCalvet//css/main.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="/EmmanuelCalvet//css/print.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/onekiwano//css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/onekiwano//css/print.css" />
 </head>
 
 <script type="text/x-mathjax-config">
@@ -41,7 +41,7 @@
   <body itemscope itemtype="http://schema.org/Article">
     <!-- header start -->
 
-<a href="/EmmanuelCalvet/" class="logo-readium"><span class="logo" style="background-image: url(/EmmanuelCalvet//assets/images/author.jpg)"></span></a>
+<a href="/onekiwano/" class="logo-readium"><span class="logo" style="background-image: url(/onekiwano//assets/images/author.jpg)"></span></a>
 
 <!-- header end -->
 
@@ -49,13 +49,13 @@
       <article class="post">
         
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url(/EmmanuelCalvet//assets/article_images/2021-11-17-wealth-distribution-p1/cover.jpg)">
+          <div class="post-image-image" style="background-image: url(/onekiwano//assets/article_images/2021-11-17-wealth-distribution-p1/cover.jpg)">
             Article Image
           </div>
           <div class="post-meta">
             <h1 class="post-title">The Physics of Economy: the Surprising Result of a Simple Transaction Model (Part 1)</h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url(/EmmanuelCalvet//assets/images/author.jpg)">Blog Logo</div>
+              <div class="author-image" style="background-image: url(/onekiwano//assets/images/author.jpg)">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Emmanuel Calvet</h4>
               on
               <time datetime="2021-11-17 00:00">17 Nov 2021</time>
@@ -85,7 +85,7 @@
   <li>Now repeat the process over and over.</li>
 </ol>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic0.png" alt="" /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic0.png" alt="" /></p>
 
 <p>So this is it, this is the model! Now you might think: “What can you do with such a model?!” If so, this would be close to my initial reaction! Well, wait for it because first I have a question for you:</p>
 
@@ -95,7 +95,7 @@
 
 <p>If you are familiar with the topics of data science, mathematics, or finance, your answer might be: “<strong>a bell curve!</strong>”</p>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic1.png" alt="A typical bell curve; generated in python by the author." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic1.png" alt="A typical bell curve; generated in python by the author." /></p>
 
 <p>And this is logical because here, <strong>transactions</strong> are <em>random</em>. Some of you might recall the central limit theorem, which, by quoting Wikipedia, states: “When <u>independent random variables are added</u>, their […] sum tends toward a <u>normal distribution</u>” i.e., a <strong>bell curve</strong>.</p>
 
@@ -109,7 +109,7 @@
 <h3 id="warm-up">Warm-up</h3>
 <p>To forge an intuition on how this model works, we start by manually doing the first three iterations. For the sake of simplicity and without loss of generality, we will assume that in each step, the agents are randomly split into two distinct groups: the receivers and the givers. For example, at the first step, <em>500</em> agents give <em>1$</em>, and the remaining <em>500</em> agents receive the given <em>1$</em>, and so on:</p>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic2.png" alt="The three first iterations of the model, assuming mutually exclusive givers and receivers groups. In green, the amount of $; P stands for probability. The distribution is symmetric with a higher likelihood at the average; Image created by the author." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic2.png" alt="The three first iterations of the model, assuming mutually exclusive givers and receivers groups. In green, the amount of $; P stands for probability. The distribution is symmetric with a higher likelihood at the average; Image created by the author." /></p>
 
 <ol>
   <li>Iteration: the <em>100$</em> group of iteration <em>0</em> is cut in half, one half receives <em>1$</em>, the other gives <em>1$</em>, hence a probability <em>P</em> of <em>0.5</em> for both values, <strong>99$</strong>(<em>P=0.5</em>) and <strong>100$</strong>(<em>P=0.5</em>).</li>
@@ -128,7 +128,7 @@
 <h2 id="so-what-is-it">So what is it?</h2>
 <p>Surprisingly, after the <em>50000</em> iterations, the wealth distribution looks like this :</p>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic3.png" alt="The probability P of having the amount of money m; generated in python by the author." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic3.png" alt="The probability P of having the amount of money m; generated in python by the author." /></p>
 
 <p>The figure shows the money probability distribution for all our <em>1000</em> agents at the last iteration. The vertical axis displays the probability <strong>P</strong> or the chance that an arbitrary agent possesses the amount of money <strong>m</strong> associated with the horizontal axis. So by looking precisely at the probabilities, the highest is obtained for <em>m=0$</em>, with a value <em>P(0)~0.045</em>, or <em>4.5%</em>. As you increase the amount of money, the probability gets lower and lower and converges toward zero.</p>
 
@@ -140,7 +140,7 @@
 
 <center><i>The probability of having m$</i></center>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic4.png" alt="Assuming b=0, the only remaining parameter to find is a, using scipy.curve_fit we estimated a=-0.00921. On the left side: the distribution in linear scaling. On the right side: the distribution with a logarithmic scaling on the vertical axis; generated in python by the author." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic4.png" alt="Assuming b=0, the only remaining parameter to find is a, using scipy.curve_fit we estimated a=-0.00921. On the left side: the distribution in linear scaling. On the right side: the distribution with a logarithmic scaling on the vertical axis; generated in python by the author." /></p>
 
 <p>To confirm this, I displayed the curve with two representations:</p>
 
@@ -159,7 +159,7 @@
 
 <p>To get a better sense of how equally the money is distributed, we can use another tool: <em>the cumulative distribution function</em>.</p>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic5.png" alt="The probability P that the amount of money M of any agents is inferior or equal to m, displayed in the horizontal axis; generated in python by the author." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic5.png" alt="The probability P that the amount of money M of any agents is inferior or equal to m, displayed in the horizontal axis; generated in python by the author." /></p>
 
 <p>With this function, we can now ask interesting questions like:</p>
 
@@ -193,7 +193,7 @@ and 19.6% detaining the 49.1% remaining.</p>
 
 <p>The answer is <strong>yes!</strong> I asked permission to show you a powerful result from this article [3]. I am sure it will speak for itself:</p>
 
-<p><img src="/EmmanuelCalvet/assets/article_images/2021-11-17-wealth-distribution-p1/pic6.png" alt="Exponential fits on truncated income data for European Union in 2014; taken with permission from [2]." /></p>
+<p><img src="/onekiwano/assets/article_images/2021-11-17-wealth-distribution-p1/pic6.png" alt="Exponential fits on truncated income data for European Union in 2014; taken with permission from [2]." /></p>
 
 <h2 id="conclusion">Conclusion</h2>
 <p>This article shows how a very simple model of uniformly random exchanges can display a very counter-intuitive result, breaking from a common assumption in probability: the central limit theorem. The intuition indeed suggests that the final distribution must be Gaussian, resulting in a very fair distribution of wealth. Surprisingly, <strong>it is not!</strong> As I showed, the final distribution is <strong>exponential</strong>: an unfair distribution that is in striking contrast with the choice of a seemingly very utopian model. We chose the initial condition as an equal amount of money for all agents. And we kept a very minimalist dynamic, where no agents could monopolize attention since it assumes uniform random exchanges. Finally, I explained how these two distributions prescribe a very different societal reality. However, an important question remains:</p>
@@ -244,7 +244,7 @@ and 19.6% detaining the 49.1% remaining.</p>
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
-              <div class="author-image" style="background-image: url(/EmmanuelCalvet//assets/images/author.jpg)">Blog Logo</div>
+              <div class="author-image" style="background-image: url(/onekiwano//assets/images/author.jpg)">Blog Logo</div>
               <h4>Emmanuel Calvet</h4>
               <p class="bio"></p>
               <hr>
@@ -256,9 +256,9 @@ and 19.6% detaining the 49.1% remaining.</p>
             <h5 class="index-headline featured"><span>Supported by</span></h5>
             <footer class="site-footer">
               <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="/EmmanuelCalvet//feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <a class="subscribe" href="/onekiwano//feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
               <div class="inner">
-                <section class="copyright">All content copyright <a href="/EmmanuelCalvet/">Emmanuel Calvet</a> &copy; 2022<br>All rights reserved.</section>
+                <section class="copyright">All content copyright <a href="/onekiwano/">Emmanuel Calvet</a> &copy; 2022<br>All rights reserved.</section>
               </div>
             </footer>
           </div>
@@ -266,20 +266,20 @@ and 19.6% detaining the 49.1% remaining.</p>
       </article>  
     </main>
     <div class="bottom-closer">
-      <div class="background-closer-image"  style="background-image: url(/EmmanuelCalvet//assets/images/coverfractal.png)">
+      <div class="background-closer-image"  style="background-image: url(/onekiwano//assets/images/coverfractal.png)">
         Image
       </div>
       <div class="inner">
         <h1 class="blog-title">Emmanuel Calvet</h1>
         <h2 class="blog-description">Phd student in the fields of classical and quantum artificial intelligence.
 </h2>
-        <a href="/EmmanuelCalvet/" class="btn">Back to Overview</a>
+        <a href="/onekiwano/" class="btn">Back to Overview</a>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/EmmanuelCalvet//assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/EmmanuelCalvet//assets/js/index.js"></script>
-<script type="text/javascript" src="/EmmanuelCalvet//assets/js/readingTime.min.js"></script>
+<script type="text/javascript" src="/onekiwano//assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/onekiwano//assets/js/index.js"></script>
+<script type="text/javascript" src="/onekiwano//assets/js/readingTime.min.js"></script>
 <script>
 (function ($) {
   "use strict";

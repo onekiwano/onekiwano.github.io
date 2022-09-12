@@ -39,7 +39,6 @@ acknowledgements: ""
 </div>
 <div class="row">
   <div class="col-xs-12">
-<p>
 
 <p>
 We are fascinated by crypto and AI, and we saw a great opportunity in using AI to predict crypto price. 
@@ -48,8 +47,6 @@ a predictable volatility will increase the trust in the technology.
 We thought we have the skill, so we just needed good company to push the project forward. 
 Now that we are in good company, we decided to start this endeavour.
 
-
-<p>
 
 </p>
 
@@ -61,39 +58,41 @@ Now that we are in good company, we decided to start this endeavour.
     <h2>Roadmap</h2>
   </div>
 </div>
+
 <div class="row">
-<div class="col-xs-12">
-<p>
-This is where the project is at the moment and the steps that will follow next.
-</p>
-
-Steps taken:
-
-<p>  
-<div class="row">
-  <div class="col-xs-12">
-    <ul>
-      <li>Functional Gaussian-Processes based strategy discoverer </li> 
-      <li>Functional interface with Binance to backtest, livetest and livetrade strategies</li> 
-    </ul>
-  </div>
-</div>
-</p>
-
-
-Next steps:
-
-<p>  
-<div class="row">
-  <div class="col-xs-12">
-    <ul>
-      <li>Deep Learning based strategy discoverer (1st week of October) </li>
-      <li>Our own servers to run the algos</li>
-      <li>Interface with Bybit</li>
-    </ul>
-  </div>
-</div>
-</p>
+    <div class="col-xs-12">
+    
+    <p>
+    This is where the project is at the moment and the steps that will follow next.
+    </p>
+    
+    Steps taken:
+    
+    <p>  
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <li>Functional Gaussian-Processes based strategy discoverer </li> 
+          <li>Functional interface with Binance to backtest, livetest and livetrade strategies</li> 
+        </ul>
+      </div>
+    </div>
+    </p>
+    
+    
+    Next steps:
+    
+    <p>  
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <li>Deep Learning based strategy discoverer (1st week of October) </li>
+          <li>Our own servers to run the algos</li>
+          <li>Interface with Bybit</li>
+        </ul>
+      </div>
+    </div>
+    </p>
 
   
 
@@ -114,14 +113,11 @@ Next steps:
 
 <div class="row">
   
-  
-
-  <div class="row">
 
 
   <div class="col-xs-3">
     <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">
-      <img class="people-pic" src="{{ "/static/img/people/ermalrrapaj.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/lucaherrtti.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">Karim Valimamode</a>
@@ -132,7 +128,7 @@ Next steps:
 
   <div class="col-xs-3">
     <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">
-      <img class="people-pic" src="{{ "/static/img/people/ermalrrapaj.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/lucaherrtti.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">Emmanuel Calvet</a>
@@ -151,8 +147,6 @@ Next steps:
     </div>
   </div>
   
-
-  </div>
 </div>
 
   

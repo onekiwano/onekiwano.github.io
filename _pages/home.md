@@ -14,16 +14,16 @@ acknowledgements: ""
 <div class="row">
   <div class="col-xs-12">
     <center><h1>Kiwano</h1></center>
-    <center><h2>the fruit of the crypto tree</h2></center>
+    <center><h3>the fruit of the crypto tree</h3></center>
   </div>
 </div>
 
 <hr>
 
-<div class="row" id="intro"> 
+<div class="row"> 
   <div class="col-md-12">
    <center>
-    <img src="{{ "/static/img/banner/epic.png" | prepend:site.baseurl }}"> 
+    <img src="{{ "/static/img/banner/epicslice.jpg" | prepend:site.baseurl }}"> 
     </center>
     <p> </p> 
   </div> 
@@ -32,7 +32,7 @@ acknowledgements: ""
 
 
 <br>
-<div class="row" id="intro">
+<div class="row" id="vision">
   <div class="col-xs-12">
     <h2>Vision</h2>
   </div>
@@ -60,7 +60,7 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
 <br>
 
 
-<div class="row" id="cfp">
+<div class="row" id="roadmap">
   <div class="col-xs-12">
     <h2>Roadmap</h2>
   </div>
@@ -130,7 +130,7 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
 
 
 
-<div class="row" id="organizers">
+<div class="row" id="us">
   <div class="col-xs-12">
     <h2>Crypto Chads</h2>
   </div>
@@ -178,6 +178,25 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
   
 
   </div>
+  
+  
+<div class="row" id="acknowledgements">
+  <div class="col-xs-12">
+    <h2>Acknowledgments</h2>
+  </div>
+</div>
+<a name="/acknowledgements"></a>
+<div class="row">
+  <div class="col-xs-12">
+    <p>
+      Thanks to <span style="color:#3a92d6;font-weight:400;"> <a href="https://www.bbc.com/future/article/20220601-are-city-forests-disappearing">BBC and Alamy</a></span>
+       for the cozy tree photo.
+    </p>
+  </div>
+</div>
+
+
+
 
 <br><br><br><br><br><br><br>
 

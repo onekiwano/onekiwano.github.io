@@ -153,6 +153,7 @@ Next steps:
   
 
   </div>
+</div>
 
   
 <p>
@@ -165,7 +166,7 @@ Next steps:
     <h2>Acknowledgments</h2>
   </div>
 </div>
-<a name="/acknowledgements"></a>
+
 <div class="row">
   <div class="col-xs-12">
     <p>

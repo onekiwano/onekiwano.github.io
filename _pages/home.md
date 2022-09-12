@@ -42,16 +42,18 @@ acknowledgements: ""
 <p>
 
 <p>
-In recent years, there has been a rapid increase of machine learning applications in computational sciences, with some of the most impressive results at the interface of deep learning (DL) and differential equations (DEs). 
-DL techniques have been used in a variety of ways to dramatically enhance the effectiveness of DE solvers and computer simulations.
-These successes have widespread implications, as DEs are among the most well-understood tools for the mathematical analysis of scientific knowledge, and they are fundamental building blocks for mathematical models in engineering, finance, and the natural sciences.
-Conversely, DL algorithms based on DEs--such as neural differential equations and continuous-time diffusion models--have also been successfully employed as deep learning models.
-Moreover, theoretical tools from DE analysis have been used to glean insights into the expressivity and training dynamics of mainstream deep learning algorithms. </p>
+We are fascinated by crypto and AI, and we thought there is a great opportunity in using AI to predict crypto price. 
+Not only to be able to trade crytpos effectively, but also to bring predictability to the crypto world, that could
+provide the safety through a predictable volatility that could increase trust in the technology. 
+We thought we have the skill, so we just needed good company to push the project forward. That's how we decided to start
+this endeavour.
+
 
 <p>
-This workshop will aim to bring together researchers with backgrounds in computational science and deep learning to encourage intellectual exchanges, cultivate relationships and accelerate research in this area.
-The scope of the workshop spans topics at the intersection of DL and DEs, including theory of DL and DEs, neural differential equations, solving DEs with neural networks, and more. </p>
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <p>
 
@@ -66,22 +68,24 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-12">
-    <p>
-      We invite high-quality extended abstract submissions on the intersection of DEs and DL. Some examples (non-exhaustive list):
-    </p>
+<div class="col-xs-12">
+<p>
+This is where the project is at the moment and the steps that will follow next.
+</p>
+
+Steps taken:
 
 <p>  
 <div class="row">
   <div class="col-xs-12">
     <ul>
-      <li>Using differential equation models to understand and improve deep learning algorithms: </li> 
+      <li>Functional Gaussian-Processes based strategy discoverer </li> 
       <ul>
         <li>Incorporating DEs into existing DL models (neural differential equations, diffusion models, ...)  </li> 
         <li>Analysis of numerical methods for implementing DEs in DL models (trade-offs, benchmarks, ...) </li> 
         <li>Modeling training dynamics using DEs to generate theoretical insights and novel algorithms. </li>
       </ul>
-      <li>Using deep learning algorithms to create or solve differential equation models:</li> 
+      <li>Functional interface with Binance to backtest, livetest and livetrade</li> 
       <ul>
         <li>DL methods for solving high-dimensional, highly parameterized, or otherwise challenging DE models.</li>
         <li>Learning-augmented numerical methods for DEs (hypersolvers, hybrid solvers ...) </li>
@@ -92,35 +96,31 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
 </div>
 </p>
 
-  <p> <span style="font-weight:500;">Submission:</span>
-  <br/>
-    Accepted submissions will be presented during joint poster sessions and will be made publicly available as non-archival reports, allowing future submissions to archival conferences or journals. 
-    Exceptional submissions will be either selected for four 15-minute contributed talks
-    or eight 5-minute spotlight oral presentations. 
-  </p>
 
-  <p>
-  Submissions should be up to 4 pages excluding references, acknowledgements, and supplementary material, and should be
-      <span style="color:#3a92d6;font-weight:400;"><a href="https://github.com/dlde-2022/dlde-2022.github.io/tree/master/static/sty/dlde_neurips_2022.sty">DLDE-NeurIPS format</a></span> and anonymous. Long appendices are permitted but strongly discouraged, and reviewers are not required to read them. The review process is double-blind.
-  </p>
-  <p>
-  We also welcome submissions of recently published work that is strongly within the scope of the workshop (with proper formatting). We encourage the authors of such submissions to focus on accessibility to the wider NeurIPS community while distilling their work into an extended abstract. Submission of this type will be eligible for poster sessions after a lighter review process.
-  </p>
-  <p>
-  Authors may be asked to review other workshop submissions. 
-  </p>
-  <p>
-  Please submit your extended abstract to <span style="color:#3a92d6;font-weight:400;"><a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/DLDE">this address.</a></span>
-   </p>
-    <p>
-  If you have any question, send an email to : [dlde.workshop@gmail.com]
-  </p>
-  
-  
-<p>
-  If you have any question for the Invited Speakers, 
-  send it through <span style="color:#3a92d6;font-weight:400;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFCYz-M0265jHEOwmnUXmkxhCPOM313B2piSV6KOgECGe1fw/viewform">this form</a></span>.
+Next steps:
+
+<p>  
+<div class="row">
+  <div class="col-xs-12">
+    <ul>
+      <li>Deep Learning based strategy discoverer (1st week of October) </li> 
+      <ul>
+        <li>Incorporating DEs into existing DL models (neural differential equations, diffusion models, ...)  </li> 
+        <li>Analysis of numerical methods for implementing DEs in DL models (trade-offs, benchmarks, ...) </li> 
+        <li>Modeling training dynamics using DEs to generate theoretical insights and novel algorithms. </li>
+      </ul>
+      <li>Interface with Bybit:</li> 
+      <ul>
+        <li>DL methods for solving high-dimensional, highly parameterized, or otherwise challenging DE models.</li>
+        <li>Learning-augmented numerical methods for DEs (hypersolvers, hybrid solvers ...) </li>
+        <li>Specialized DL architectures for solving DEs (neural operators, PINNs, ...). </li>
+      </ul>
+    </ul>
+  </div>
+</div>
 </p>
+
+  
 
 
   </div>
@@ -178,6 +178,11 @@ The scope of the workshop spans topics at the intersection of DL and DEs, includ
   
 
   </div>
+
+  
+<p>
+  If you have any question feel free to contact us!
+</p>
   
   
 <div class="row" id="acknowledgements">

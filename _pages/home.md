@@ -43,10 +43,10 @@ acknowledgements: ""
 
 <p>
 We are fascinated by crypto and AI, and we thought there is a great opportunity in using AI to predict crypto price. 
-Not only to be able to trade crytpos effectively, but also to bring predictability to the crypto world, that could
-provide the safety through a predictable volatility that could increase trust in the technology. 
-We thought we have the skill, so we just needed good company to push the project forward. That's how we decided to start
-this endeavour.
+Not only to be able to trade crytpos effectively, but also to bring predictability to the crypto world. We believe that
+a predictable volatility will increase the trust in the technology. 
+We thought we have the skill, so we just needed good company to push the project forward. 
+Now that we are in good company, we decided to start this endeavour.
 
 
 <p>

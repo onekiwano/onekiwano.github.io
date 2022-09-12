@@ -80,17 +80,7 @@ Steps taken:
   <div class="col-xs-12">
     <ul>
       <li>Functional Gaussian-Processes based strategy discoverer </li> 
-      <ul>
-        <li>Incorporating DEs into existing DL models (neural differential equations, diffusion models, ...)  </li> 
-        <li>Analysis of numerical methods for implementing DEs in DL models (trade-offs, benchmarks, ...) </li> 
-        <li>Modeling training dynamics using DEs to generate theoretical insights and novel algorithms. </li>
-      </ul>
-      <li>Functional interface with Binance to backtest, livetest and livetrade</li> 
-      <ul>
-        <li>DL methods for solving high-dimensional, highly parameterized, or otherwise challenging DE models.</li>
-        <li>Learning-augmented numerical methods for DEs (hypersolvers, hybrid solvers ...) </li>
-        <li>Specialized DL architectures for solving DEs (neural operators, PINNs, ...). </li>
-      </ul>
+      <li>Functional interface with Binance to backtest, livetest and livetrade strategies</li> 
     </ul>
   </div>
 </div>
@@ -103,18 +93,9 @@ Next steps:
 <div class="row">
   <div class="col-xs-12">
     <ul>
-      <li>Deep Learning based strategy discoverer (1st week of October) </li> 
-      <ul>
-        <li>Incorporating DEs into existing DL models (neural differential equations, diffusion models, ...)  </li> 
-        <li>Analysis of numerical methods for implementing DEs in DL models (trade-offs, benchmarks, ...) </li> 
-        <li>Modeling training dynamics using DEs to generate theoretical insights and novel algorithms. </li>
-      </ul>
-      <li>Interface with Bybit:</li> 
-      <ul>
-        <li>DL methods for solving high-dimensional, highly parameterized, or otherwise challenging DE models.</li>
-        <li>Learning-augmented numerical methods for DEs (hypersolvers, hybrid solvers ...) </li>
-        <li>Specialized DL architectures for solving DEs (neural operators, PINNs, ...). </li>
-      </ul>
+      <li>Deep Learning based strategy discoverer (1st week of October) </li>
+      <li>Our own servers to run the algos</li>
+      <li>Interface with Bybit</li>
     </ul>
   </div>
 </div>

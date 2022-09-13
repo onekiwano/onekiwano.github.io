@@ -132,7 +132,8 @@ Now that we are in good company, we decided to start this endeavour.
     </a>
     <div class="people-name">
       <a href="https://manuneuro.github.io/EmmanuelCalvet/">Emmanuel Calvet</a>
-      <h6>University of California, Berkley</h6>
+      <h6>Université de Sherbrooke</h6>
+      <h6>PhD student</h6>
     </div>
   </div>
 

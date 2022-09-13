@@ -145,6 +145,7 @@ Now that we are in good company, we decided to start this endeavour.
     <div class="people-name">
       <a href="https://lucehe.github.io/">Luca Herranz-Celotti</a>
       <h6>Université de Sherbrooke</h6>
+      <h6>PhD student</h6>
     </div>
   </div>
   

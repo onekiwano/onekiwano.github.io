@@ -117,7 +117,7 @@ Now that we are in good company, we decided to start this endeavour.
 
   <div class="col-xs-3">
     <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">
-      <img class="people-pic" src="{{ "/static/img/people/lucaherrtti.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/karimvalimamode.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">Karim Valimamode</a>

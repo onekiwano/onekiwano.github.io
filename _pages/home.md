@@ -137,7 +137,6 @@ Now that we are in good company, we decided to start this endeavour.
   </div>
 
 
-
   <div class="col-xs-3">
     <a href="https://lucehe.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/lucaherrtti.jpg" | prepend:site.baseurl }}">

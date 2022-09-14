@@ -111,7 +111,7 @@ Now that we are in good company, we decided to start this endeavour.
 </div>
 
 
-<div class="row">
+<div class="row";>
   
 
   <div class="col-xs-4">

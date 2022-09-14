@@ -114,7 +114,6 @@ Now that we are in good company, we decided to start this endeavour.
 <div class="row">
   
 
-
   <div class="col-xs-4">
     <a>
       <img class="people-pic" src="{{ "/static/img/people/karimvalimamode.jpg" | prepend:site.baseurl }}">
@@ -156,7 +155,7 @@ Now that we are in good company, we decided to start this endeavour.
 If you have any question feel free to contact us! If you want to be contacted when we are ready to 
 provide a service, drop your email in the following form, or leave a comment there if you know how
 we could be more useful to you
-<a style="font-weight:500;" href="https://docs.google.com/forms/d/1E2o2-Rb6LJux4GrsUYGZ-c9u7b0fv2G7LCNik30EAdA/prefill">[here]</a>.
+<a style="font-weight:500;" href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">[here]</a>.
 
 </p>
   

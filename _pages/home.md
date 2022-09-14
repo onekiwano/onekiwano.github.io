@@ -41,13 +41,14 @@ acknowledgements: ""
   <div class="col-xs-12">
 
 <p>
-We are fascinated by crypto and AI, and we saw a great opportunity in using AI to predict crypto price. 
-Not only to trade crytpos effectively, but also to bring predictability to the crypto world. We believe that
-a predictable volatility will increase the trust in the technology. 
-We thought we have the skill, so we just needed good company to push the project forward. 
-Now that we are in good company, we decided to start this endeavour.
+We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
+Not only to trade cryptos effectively but also to bring predictability to the crypto world. We believe that predictable volatility will increase the trust in the technology. 
+We thought we had the skills, so we needed good company to push the project forward: Kiwano was born. 
 
+Kiwano is more than just a company or a product; it's an ideal and philosophy. The world wealth distribution is becoming increasingly unfair, digging the gap between the wealthy and poor and eradicating the middle class [1]. Structurally, this threatens the stability of society [2]. What is most nation's reaction? More control over citizens.
 
+The Bitcoin tree presents itself as an alternative where transparency could coexist with freedom of choice. At Kiwano, we recognize this as an opportunity.
+We want to grow our projects and allow more entrepreneurs to develop challenging and exciting ventures. 
 </p>
 
 <br>

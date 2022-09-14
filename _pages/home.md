@@ -115,7 +115,7 @@ Now that we are in good company, we decided to start this endeavour.
   
 
 
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <a>
       <img class="people-pic" src="{{ "/static/img/people/karimvalimamode.jpg" | prepend:site.baseurl }}">
     </a>
@@ -126,7 +126,7 @@ Now that we are in good company, we decided to start this endeavour.
   </div>
 
 
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <a href="https://manuneuro.github.io/EmmanuelCalvet/">
       <img class="people-pic" src="{{ "/static/img/people/manucalvet_.jpg" | prepend:site.baseurl }}">
     </a>
@@ -138,7 +138,7 @@ Now that we are in good company, we decided to start this endeavour.
   </div>
 
 
-  <div class="col-xs-3">
+  <div class="col-xs-4">
     <a href="https://lucehe.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/lucaherrtti.jpg" | prepend:site.baseurl }}">
     </a>

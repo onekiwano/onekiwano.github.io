@@ -116,12 +116,12 @@ Now that we are in good company, we decided to start this endeavour.
 
 
   <div class="col-xs-3">
-    <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">
+    <a>
       <img class="people-pic" src="{{ "/static/img/people/karimvalimamode.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://n3as.berkeley.edu/p/fellow/ermal-rrapaj/">Karim Valimamode</a>
-      <h6>University of California, Berkley</h6>
+      <a>Karim Valimamode</a>
+      <h6>SOC Analyst, Montreal</h6>
     </div>
   </div>
 

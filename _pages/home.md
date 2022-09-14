@@ -49,12 +49,13 @@ We thought we had the skills, so we needed good company to push the project forw
 
 <p>
 Kiwano is more than just a company or a product; it's an ideal and philosophy. The world wealth distribution is 
-becoming increasingly unfair, digging the gap between the wealthy and poor and eradicating the middle class [1]. 
-Structurally, this threatens the stability of society [2]. What is most nation's reaction? More control over citizens.
+becoming increasingly unfair, digging the gap between the wealthy and poor and eradicating the middle class. 
+Structurally, this threatens the stability of society. What is most nation's reaction? More control over citizens.
 </p>
 
 <p>
-The Bitcoin tree presents itself as an alternative where transparency could coexist with freedom of choice. At Kiwano, we recognize this as an opportunity.
+The Bitcoin tree presents itself as an alternative where transparency could coexist with freedom of choice. At Kiwano, 
+we recognize this as an opportunity.
 We want to grow our projects and allow more entrepreneurs to develop challenging and exciting ventures. 
 </p>
 

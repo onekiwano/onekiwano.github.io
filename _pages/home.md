@@ -13,7 +13,7 @@ acknowledgements: ""
 <br>
 <div class="row">
   <div class="col-xs-12">
-    <center><b><h1>Kiwano</h1></b></center>
+    <center><h1><b>Kiwano</b></h1></center>
     <center><h3>the fruit of the crypto tree</h3></center>
   </div>
 </div>

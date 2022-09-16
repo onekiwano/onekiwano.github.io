@@ -36,8 +36,6 @@ acknowledgements: ""
     <h2>Mission</h2>
   </div>
 </div>
-<div class="row">
-  <div class="col-xs-12">
 
 <p>
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
@@ -47,13 +45,12 @@ We thought we had the skills, so we needed good company to push the project forw
 </p>
 
 <br>
+
 <div class="row" id="vision">
   <div class="col-xs-12">
     <h2>Vision</h2>
   </div>
 </div>
-<div class="row">
-  <div class="col-xs-12">
 
 
 <p>
@@ -114,10 +111,9 @@ challenging and exciting ventures.
 
   </div>
 
-</div><br>
+</div>
 
-
-
+<br>
 
 <div class="row" id="us">
   <div class="col-xs-12">

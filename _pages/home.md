@@ -30,11 +30,10 @@ acknowledgements: ""
 </div>
 
 
-
 <br>
-<div class="row" id="vision">
+<div class="row" id="mission">
   <div class="col-xs-12">
-    <h2>Vision</h2>
+    <h2>Mission</h2>
   </div>
 </div>
 <div class="row">
@@ -46,6 +45,16 @@ Not only to trade cryptos effectively but also to bring predictability to the cr
 volatility will increase the trust in the technology.
 We thought we had the skills, so we needed good company to push the project forward: Kiwano was born.
 </p>
+
+<br>
+<div class="row" id="vision">
+  <div class="col-xs-12">
+    <h2>Vision</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+
 
 <p>
 Kiwano is more than just a company or a product; it's an ideal and philosophy. The world wealth distribution is 

@@ -39,7 +39,7 @@ acknowledgements: ""
 
 <p>
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
-Not only to trade cryptos effectively but also to bring predictability to the crypto world. We believe that predictable 
+Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe that predictable 
 volatility will increase the trust in the technology.
 We knew we had the skills, so we to decided to push the project forward: Kiwano was born.
 </p>

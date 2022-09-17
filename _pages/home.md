@@ -54,12 +54,15 @@ We knew we had the skills, so we to decided to push the project forward: Kiwano 
 
 
 <p>
-Kiwano is more than just a company or a product; it's an ideal and philosophy. The world wealth distribution is 
-becoming increasingly unfair, digging the gap between the wealthy and poor and eradicating the middle class. 
-Structurally, this threatens the stability of society. What is most nation's reaction? More control over citizens.
-The Bitcoin tree presents itself as an alternative where transparency could coexist with freedom of choice. At 
-Kiwano,  we recognize this as an opportunity. We want to grow our projects and allow more entrepreneurs to develop 
-challenging and exciting ventures. 
+Kiwano is more than just a company or a product; it's an ideal and philosophy. 
+
+Now starting with the bad news, let's be honest, the world is facing significant challenges: global warming, social instabilities, inflation... and among these challenges, the financial system is often taken as being the issue itself by public opinion. As a result, trust in the banking system and its affiliated institutions is decreasing.
+
+In this context, we asked ourselves, how can we regain that trust?
+
+The Bitcoin tree presents itself as an alternative, where transparency could coexist with freedom of choice, resulting in individual and collective empowerment.
+
+At Kiwano, we believe that finance can work hand in hand with social causes and even help tackle the challenges of today and tomorrow. By providing stability and predictability to the crypto world, we will grow our projects while allowing more entrepreneurs to develop their new exciting ventures. 
 </p>
 
 <br>

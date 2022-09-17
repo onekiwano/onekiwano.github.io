@@ -198,7 +198,7 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
   <p>
     If you have any question feel free to contact us! If you want to be contacted when we are ready to 
     provide a service, drop your email in the following form, or leave a comment if you know how
-    we could be more useful to you:
+    we could be more useful to you.
   </p>
   </div>
 

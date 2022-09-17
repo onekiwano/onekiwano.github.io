@@ -65,10 +65,12 @@ Now starting with the bad news, let's be honest, the world is facing significant
 In this context, we asked ourselves, how can we regain that trust?
   </blockquote>
 </figure>
-<br>
+
 The Bitcoin tree presents itself as an alternative, where transparency could coexist with freedom of choice, resulting in individual and collective empowerment.
+
 <br>
 <br>
+
 At Kiwano, we believe that finance can work hand in hand with social causes and even help tackle the challenges of today and tomorrow. By providing stability and predictability to the crypto world, we will grow our projects and allow more entrepreneurs to develop their new exciting ventures. 
 </p>
 

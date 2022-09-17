@@ -55,13 +55,18 @@ We knew we had the skills, so we to decided to push the project forward: Kiwano 
 
 <p>
 Kiwano is more than just a company or a product; it's an ideal and a philosophy. 
-
+<br>
 Now starting with the bad news, let's be honest, the world is facing significant challenges: global warming, social instabilities, inflation... and among these challenges, the financial system is often taken as being the issue itself by public opinion. As a result, trust in the banking system and its affiliated institutions is decreasing.
+<br>
 
+<figure class="quote">
+  <blockquote>
 In this context, we asked ourselves, how can we regain that trust?
-
+  </blockquote>
+</figure>
+<br>
 The Bitcoin tree presents itself as an alternative, where transparency could coexist with freedom of choice, resulting in individual and collective empowerment.
-
+<br>
 At Kiwano, we believe that finance can work hand in hand with social causes and even help tackle the challenges of today and tomorrow. By providing stability and predictability to the crypto world, we will grow our projects while allowing more entrepreneurs to develop their new exciting ventures. 
 </p>
 

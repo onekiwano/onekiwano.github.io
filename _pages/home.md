@@ -187,13 +187,24 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
   
 <p>
 If you have any question feel free to contact us! If you want to be contacted when we are ready to 
-provide a service, drop your email in the following form, or leave a comment there if you know how
-we could be more useful to you
-<a style="font-weight:500;" href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">[here]</a>.
+provide a service, drop your email in the following form, or leave a comment if you know how
+we could be more useful to you:
+</p>
+
+  <div class="col-xs-4">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">
+      <img class="people-pic" src="{{ "/static/img/banner/click-here.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">Here!</a>
+    </div>
+  </div>
 
 </p>
   
-  
+
+<br>
+
 <div class="row" id="acknowledgements">
   <div class="col-xs-12">
     <h2>Acknowledgments</h2>

@@ -208,7 +208,7 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
       <img class="people-pic" src="{{ "/static/img/banner/click-here.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">Here!</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">Click here!</a>
     </div>
   </div>
   

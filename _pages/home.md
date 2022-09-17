@@ -54,7 +54,7 @@ We knew we had the skills, so we to decided to push the project forward: Kiwano 
 
 
 <p>
-Kiwano is more than just a company or a product; it's an ideal and philosophy. 
+Kiwano is more than just a company or a product; it's an ideal and a philosophy. 
 
 Now starting with the bad news, let's be honest, the world is facing significant challenges: global warming, social instabilities, inflation... and among these challenges, the financial system is often taken as being the issue itself by public opinion. As a result, trust in the banking system and its affiliated institutions is decreasing.
 

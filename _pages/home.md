@@ -215,7 +215,7 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
 
   </center>
 
-  </div>
+</div>
 
 </center>
 

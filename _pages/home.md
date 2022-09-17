@@ -35,9 +35,6 @@ acknowledgements: ""
     <h2>Product</h2>
   </div>
 </div>
-
-<br>
-
 <p>
 We are building different forms of AI trading algorithms. Our first planned product consists of selling buy and sell signals for any crypto-currency. 
 </p>

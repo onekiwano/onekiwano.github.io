@@ -121,9 +121,9 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
     <div class="row">
       <div class="col-xs-12">
         <ul>
-          <li>Deep Learning based strategy discoverer (1st week of October) </li>
-          <li>Our own servers to run the algos</li>
-          <li>Interface with Bybit</li>
+          <li>Deep Reinforcement Learning based strategy discoverer (1st week of October) </li>
+          <li>Host a Cloud based infrastructure for our services </li>
+          <li>Interface with Bybit and other crypto trading plateforms</li>
         </ul>
       </div>
     </div>

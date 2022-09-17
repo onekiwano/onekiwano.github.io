@@ -189,34 +189,19 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
 <br>
 <br>
 
-<center>
-
-<div class="row">
-  <center>
-
-  <div class="col-xs-3">
   <p>
     If you have any question feel free to contact us! If you want to be contacted when we are ready to 
     provide a service, drop your email in the following form, or leave a comment if you know how
     we could be more useful to you.
   </p>
-  </div>
 
-  <div class="col-xs-3">
-
+<center>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">
       <img class="people-pic" src="{{ "/static/img/banner/click-here.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsjLz-RjclopwA8CWGR_aAOReytCRBjd8zEjErsDcrSAaQPA/viewform?usp=pp_url">Click here!</a>
     </div>
-  </div>
-  
-
-  </center>
-
-</div>
-
 </center>
 
 <br>

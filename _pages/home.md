@@ -52,7 +52,7 @@ We are building different forms of AI trading algorithms. Our first planned prod
 
 <p>
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
-Not only to trade cryptos effectively but also to bring predictability to the crypto world. We believe that predictable 
+Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe that predictable 
 volatility will increase the trust in the technology.
 We knew we had the skills, so we to decided to push the project forward: Kiwano was born.
 
@@ -79,11 +79,13 @@ Now starting with the bad news, let's be honest, the world is facing significant
 In this context, we asked ourselves, how can we regain that trust?
   </blockquote>
 </figure>
-<br>
+
 The Bitcoin tree presents itself as an alternative, where transparency could coexist with freedom of choice, resulting in individual and collective empowerment.
+
 <br>
 <br>
-At Kiwano, we believe that finance can work hand in hand with social causes and even help tackle the challenges of today and tomorrow. By providing stability and predictability to the crypto world, we will grow our projects and allow more entrepreneurs to develop their new exciting ventures. 
+
+At Kiwano, we believe that finance can work hand in hand with social causes, and help tackle the challenges of today and tomorrow. By providing stability and predictability to the crypto world, we will grow our projects and allow more entrepreneurs to develop their new exciting ventures. 
 </p>
 
 <br>

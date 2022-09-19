@@ -36,7 +36,7 @@ acknowledgements: ""
   </div>
 </div>
 <p>
-We are building different forms of AI trading algorithms. Our first product will consist in selling -buy and sell- signals for any crypto-currency. 
+We are building different forms of Artificial Intelligence (AI) trading algorithms. Our first product will consist in selling -buy and sell- signals for any crypto-currency. 
 </p>
 
 <br>
@@ -107,8 +107,8 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
     <div class="row">
       <div class="col-xs-12">
         <ul>
-          <li>Functional Gaussian-Processes based strategy discoverer </li> 
-          <li>Functional interface with Binance to backtest, livetest and livetrade strategies</li> 
+          <li>Functional Gaussian-Processes based strategy discoverer; </li> 
+          <li>Functional interface with Binance to backtest, livetest and livetrade strategies.</li> 
         </ul>
       </div>
     </div>
@@ -121,9 +121,9 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
     <div class="row">
       <div class="col-xs-12">
         <ul>
-          <li>Deep Reinforcement Learning based strategy discoverer (1st week of October) </li>
-          <li>Host a Cloud based infrastructure for our services </li>
-          <li>Interface with Bybit and other crypto trading plateforms</li>
+          <li>Deep Reinforcement Learning based strategy discoverer (1st week of October); </li>
+          <li>Host a Cloud based infrastructure for our services; </li>
+          <li>Interface with Bybit and other crypto trading plateforms.</li>
         </ul>
       </div>
     </div>

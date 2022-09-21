@@ -36,7 +36,7 @@ acknowledgements: ""
   </div>
 </div>
 <p>
-We are building different forms of Artificial Intelligence (AI) trading algorithms. Our first product will consist in selling -buy and sell- signals for any crypto-currency. 
+We are building different forms of Artificial Intelligence (AI) trading algorithms. Our first product will consist in selling buy-and-sell signals for any crypto-currency. 
 </p>
 
 <br>

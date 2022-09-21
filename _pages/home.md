@@ -51,8 +51,15 @@ We are building different forms of Artificial Intelligence (AI) trading algorith
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
 Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe that predictable 
 volatility will increase the trust in the technology.
-We knew we had the skills, so we decided to push the project forward: Kiwano was born.
 
+</p>
+
+<br>
+<p>
+Keeping that in mind, we aim to take advantage of AI algorithms to predict crypto price evolution. 
+Therefore, we started Kiwano, to be able to share these predictions with the community in the form of buy-and-sell signals.
+While this would be our core activity, we are planning on exploring more of the opportunities that Cryptocurrencies offer. 
+We truly believe that we can build an entire financial ecosystem around the Bitcoin tree that could allow anyone to boost their savings.
 </p>
 
 <br>

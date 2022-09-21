@@ -54,7 +54,6 @@ volatility will increase the trust in the technology.
 
 </p>
 
-<br>
 <p>
 Keeping that in mind, we aim to take advantage of AI algorithms to predict crypto price evolution. 
 Therefore, we started Kiwano, to be able to share these predictions with the community in the form of buy-and-sell signals.

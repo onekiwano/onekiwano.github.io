@@ -36,7 +36,8 @@ acknowledgements: ""
   </div>
 </div>
 <p>
-We are building different forms of Artificial Intelligence (AI) trading algorithms. Our first product will consist in selling buy-and-sell signals for any crypto-currency. 
+We are building different forms of Artificial Intelligence (AI) trading algorithms. Our first product will consist 
+of selling buy-and-sell signals for any crypto-currency. 
 </p>
 
 <br>
@@ -49,20 +50,19 @@ We are building different forms of Artificial Intelligence (AI) trading algorith
 
 <p>
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
-Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe that predictable 
-volatility will increase the trust in the technology.
-
+Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe 
+that predictable volatility will increase the trust in the technology.
 </p>
 
 <p>
-Keeping that in mind, we aim to take advantage of AI algorithms to predict crypto price evolution. 
-Therefore, we started Kiwano, to be able to share these predictions with the community in the form of buy-and-sell signals.
-While this would be our core activity, we are planning on exploring more of the opportunities that Cryptocurrencies offer. 
-We truly believe that we can build an entire financial ecosystem around the Bitcoin tree that could allow anyone to boost their savings.
+With that in mind, we started Kiwano, to be able to share these predictions with the community in the form 
+of buy-and-sell signals.
+While this would be our core activity, we plan on exploring more of the opportunities that cryptocurrencies offer. 
+In the medium run, we want to build a financial ecosystem around the crypto trees to allow anyone to 
+boost their savings.
 </p>
 
 <br>
-
 <div class="row" id="vision">
   <div class="col-xs-12">
     <h2>Vision</h2>
@@ -115,6 +115,8 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
         <ul>
           <li>Functional Gaussian-Processes based strategy discoverer; </li> 
           <li>Functional interface with Binance to backtest, livetest and livetrade strategies.</li> 
+          <li>Deep Reinforcement Learning based strategy discoverer; </li>
+          <li>Host a Cloud based infrastructure for our services; </li>
         </ul>
       </div>
     </div>
@@ -127,8 +129,7 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
     <div class="row">
       <div class="col-xs-12">
         <ul>
-          <li>Deep Reinforcement Learning based strategy discoverer (1st week of October); </li>
-          <li>Host a Cloud based infrastructure for our services; </li>
+          <li>High performance Deep Reinforcement Learning based strategy; </li>
           <li>Interface with Bybit and other crypto trading plateforms.</li>
         </ul>
       </div>

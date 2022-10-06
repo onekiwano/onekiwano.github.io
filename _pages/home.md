@@ -52,9 +52,6 @@ of selling buy-and-sell signals for any crypto-currency.
 We are fascinated by crypto and AI and saw an excellent opportunity to use AI to predict crypto prices. 
 Not only to trade cryptos effectively, but also to bring predictability to the crypto world. We believe 
 that predictable volatility will increase the trust in the technology.
-</p>
-
-<p>
 With that in mind, we started Kiwano, to be able to share these predictions with the community in the form 
 of buy-and-sell signals.
 While this would be our core activity, we plan on exploring more of the opportunities that cryptocurrencies offer. 

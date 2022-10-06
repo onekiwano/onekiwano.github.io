@@ -110,8 +110,8 @@ At Kiwano, we believe that finance can work hand in hand with social causes, and
     <div class="row">
       <div class="col-xs-12">
         <ul>
-          <li> 01 Feb 2022: Functional Gaussian-Processes based strategy discoverer; </li> 
-          <li> 01 Feb 2022: Functional interface with Binance to backtest, livetest and livetrade strategies.</li> 
+          <li> 01 May 2022: Functional Gaussian-Processes based strategy discoverer; </li> 
+          <li> 01 May 2022: Functional interface with Binance to backtest, livetest and livetrade strategies.</li> 
           <li> 01 Oct 2022: Deep Reinforcement Learning based strategy discoverer; </li>
           <li> 01 Oct 2022: Host a Cloud based infrastructure for our services; </li>
         </ul>

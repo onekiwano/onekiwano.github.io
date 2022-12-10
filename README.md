@@ -6,6 +6,6 @@ static
 _config.yml
 README.md# dl-de.github.io
 
-Webpage source files for DLDE workshop at NeurIPS 2021
+Webpage source files for Kiwano
 
-https://dl-de.github.io
+https://onekiwano.github.io

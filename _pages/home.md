@@ -55,6 +55,18 @@ Smart DCA
     <style>.bnp-button{text-decoration:none;display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;border-radius: 4px;color:#fff;background-color:#337ab7;border-color:#2e6da4;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;box-sizing:border-box;}.bnp-button:hover{color:#fff;background-color:#2e6da4;text-decoration:none;}</style><a id="bnp-6394d0556b1292000478a20d"class="bnp-button"href="https://buynowplus.com/checkout/6394d0556b1292000478a20d">Buy Now</a>
 </div>
 
+
+<form action="https://buynowplus.com/checkout/6394d0556b1292000478a20d">
+    <input type="submit" value="Buy Now" />
+</form>
+
+<div class="collapsible-body">
+    <button id="add-discard" class="btn deep-purple lighten-2 m-10">Add to Discard</button>
+    <button id="add-to-top" class="btn deep-purple lighten-2 m-10">Add to Top of Deck</button>
+    <p id="add-top"> This is add top paragraph </p>
+    <div id="hq-cards"></div>
+</div>
+
 </p>
 
 <br>

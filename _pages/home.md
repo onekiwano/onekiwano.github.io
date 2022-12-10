@@ -32,7 +32,7 @@ acknowledgements: ""
 
 <div class="row" id="product">
   <div class="col-xs-12">
-    <h2>Product</h2>
+    <h2>Target Product</h2>
   </div>
 </div>
 <p>
@@ -41,6 +41,22 @@ of selling buy-and-sell signals for any crypto-currency.
 </p>
 
 <br>
+
+<div class="row" id="product">
+  <div class="col-xs-12">
+    <h2>Products</h2>
+  </div>
+</div>
+<p>
+Smart DCA
+
+<style>.bnp-button{text-decoration:none;display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;border-radius: 4px;color:#fff;background-color:#337ab7;border-color:#2e6da4;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;box-sizing:border-box;}.bnp-button:hover{color:#fff;background-color:#2e6da4;text-decoration:none;}</style><a id="bnp-6394d0556b1292000478a20d"class="bnp-button"href="https://buynowplus.com/checkout/6394d0556b1292000478a20d">Buy Now</a>
+
+</p>
+
+<br>
+
+
 
 <div class="row" id="mission">
   <div class="col-xs-12">

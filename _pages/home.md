@@ -49,11 +49,13 @@ of selling buy-and-sell signals for any crypto-currency.
 </div>
 
 <p>
-Smart DCA
+
 
 <form action="https://buynowplus.com/checkout/6394d0556b1292000478a20d">
     <input type="submit" value="Buy Now" />
 </form>
+ - Smart DCA
+
 
 </p>
 

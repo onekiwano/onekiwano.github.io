@@ -56,7 +56,7 @@ given the market conditions.
 <p>
 
 <strong>AI Crypto Trader.</strong> We are building different forms of Artificial Intelligence (AI) based trading algorithms. 
-We are working to have a bot capable to tell you when to buy and sell your cryptos of interest!
+We are working to have a bot capable to tell you when to buy and sell the cryptos you most like!
 
 <form action="">
     <input type="submit" value="Coming Soon" />

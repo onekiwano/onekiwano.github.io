@@ -69,10 +69,9 @@ We are working to have a bot capable to tell you when to buy and sell your crypt
 
 <p>
 
-<strong>Crypto Arbitrage Finder.</strong> Flash Loans have become DCA stands for Dollar Cost Average, and it is he most common way to invest in crypto.
-We improved this idea to adjust the amount of money you invest in a crypto-currency based on the price of the coin.
-You tell us the maximum amount of money you want to invest per day, and we will tell you how much to invest in BTC
-given the market conditions.
+<strong>Crypto Arbitrage Finder.</strong> Flash Loans have become a very popular way to make money in the crypto space.
+The problem is that you need to be very fast to take advantage of them. We are building a tool that will help you find
+the best arbitrage opportunities in the market.
 <form action="">
     <input type="submit" value="Coming Soon" />
 </form>

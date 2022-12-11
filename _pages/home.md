@@ -42,8 +42,8 @@ acknowledgements: ""
 <p>
 
 <strong>Smart DCA.</strong> DCA stands for Dollar Cost Average, and it is the most common way to invest in crypto.
-We improved this idea to adjust the amount of money you invest in a crypto-currency based on the price of the coin.
-You tell us the maximum amount of money you want to invest per day, and we will tell you how much to invest in BTC
+We improved this idea to adjust the amount of money you invest in a crypto-currency, based on the price of the coin.
+You tell us the maximum amount of money you want to invest per day, and we tell you how much to invest in BTC
 given the market conditions.
 <form action="https://buynowplus.com/checkout/6394d0556b1292000478a20d">
     <input type="submit" value="Buy Now" />

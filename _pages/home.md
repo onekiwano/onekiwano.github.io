@@ -41,7 +41,7 @@ acknowledgements: ""
 
 <p>
 
-<strong>Smart DCA.</strong> DCA stands for Dollar Cost Average, and it is he most common way to invest in crypto.
+<strong>Smart DCA.</strong> DCA stands for Dollar Cost Average, and it is the most common way to invest in crypto.
 We improved this idea to adjust the amount of money you invest in a crypto-currency based on the price of the coin.
 You tell us the maximum amount of money you want to invest per day, and we will tell you how much to invest in BTC
 given the market conditions.
@@ -56,7 +56,7 @@ given the market conditions.
 <p>
 
 <strong>AI Crypto Trader.</strong> We are building different forms of Artificial Intelligence (AI) based trading algorithms. 
-We are working to have a bot capable to tell you when to buy and sell the cryptos you most like!
+We are working to have a bot capable to tell you when to buy and sell the cryptos you like most!
 
 <form action="">
     <input type="submit" value="Coming Soon" />

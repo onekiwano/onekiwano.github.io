@@ -31,6 +31,13 @@ acknowledgements: ""
 <br>
 
 
+<center><span style="color:#3a92d6;font-weight:400;">
+Join the adventure on 
+<a style="font-weight:500;" href="https://discord.gg/NKghWPJn">[our Discord Channel]</a>
+</span></center>
+
+
+
 <br>
 
 <div class="row" id="product">

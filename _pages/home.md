@@ -28,7 +28,6 @@ acknowledgements: ""
     <p> </p> 
   </div> 
 </div>
-<br>
 
 
 <center><span style="color:#3a92d6;font-weight:400;">
@@ -81,6 +80,22 @@ The problem is that you need to be very fast to take advantage of them. We are b
 the best arbitrage opportunities in the market.
 <form action="">
     <input type="submit" value="Coming Soon" />
+</form>
+
+
+</p>
+
+
+
+<p>
+
+<strong>Kiwano Portfolio.</strong> The purpose of this project is to provide an interface with 
+Binance now, and more exchanges to come, to be able to backtest, livetest and livetrade your 
+trading algorithms on crypto-currencies. We thought we could let you focus all your creativity a
+nd effort on your trading strategies, and let us handle the rest, since this part is simpler 
+but necessary.
+<form action="https://github.com/onekiwano/kiwano_portfolio">
+    <input type="submit" value="Start coding your strategy" />
 </form>
 
 

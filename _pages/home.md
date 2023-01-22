@@ -91,8 +91,8 @@ the best arbitrage opportunities in the market.
 
 <strong>Kiwano Portfolio.</strong> The purpose of this project is to provide an interface with 
 Binance now, and more exchanges to come, to be able to backtest, livetest and livetrade your 
-trading algorithms on crypto-currencies. We thought we could let you focus all your creativity a
-nd effort on your trading strategies, and let us handle the rest, since this part is simpler 
+trading algorithms on crypto-currencies. We thought we could let you focus all your creativity and 
+effort on your trading strategies, and let us handle the rest, since this part is simpler 
 but necessary.
 <form action="https://github.com/onekiwano/kiwano_portfolio">
     <input type="submit" value="Start coding your strategy" />

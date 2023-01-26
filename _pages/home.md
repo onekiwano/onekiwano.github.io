@@ -70,12 +70,14 @@ We improved this idea to adjust the amount of money you invest in a crypto-curre
 You tell us the maximum amount of money you want to invest per day, and we tell you how much to invest in BTC
 given the market conditions.
 
+<!--
 <center>
 <form action="">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
-
+-->
+  
 </p>
 
 
@@ -84,11 +86,13 @@ given the market conditions.
 <strong>AI Crypto Trader.</strong> We are building different forms of Artificial Intelligence (AI) based trading algorithms. 
 We are working to have a bot capable to tell you when to buy and sell the cryptos you like most!
 
+  <!--
 <center>
 <form action="">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
+-->
 
 </p>
 
@@ -100,12 +104,14 @@ We are working to have a bot capable to tell you when to buy and sell the crypto
 The problem is that you need to be very fast to take advantage of them. We are building a tool that will help you find
 the best arbitrage opportunities in the market.
 
+<!--
 <center>
 <form action="">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
-
+-->
+  
 </p>
 
 

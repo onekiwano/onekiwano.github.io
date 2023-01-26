@@ -13,7 +13,7 @@ acknowledgements: ""
 <br>
 <div class="row">
   <div class="col-xs-12">
-    <center><img src="{{ "/static/img/banner/logo.png" style="width:48px;height:48px;" | prepend:site.baseurl }}"><h1><b>Kiwano</b></h1></center>
+    <center><img src="{{ "/static/img/banner/logo.png" | prepend:site.baseurl }}" style="width:48px;height:48px;"><h1><b>Kiwano</b></h1></center>
     <center><h3>The fruit of the crypto tree</h3></center>
   </div>
 </div>

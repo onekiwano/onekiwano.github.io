@@ -72,7 +72,7 @@ given the market conditions.
 
 <!--
 <center>
-<form action="">
+<form action="https://buy.stripe.com/6oEdTD84T2Ji7Oo4gg">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>

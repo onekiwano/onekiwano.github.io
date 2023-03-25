@@ -70,13 +70,11 @@ We improved this idea to adjust the amount of money you invest in a crypto-curre
 You tell us the maximum amount of money you want to invest per day, and we tell you how much to invest in BTC
 given the market conditions.
 
-<!--
 <center>
 <form action="https://buy.stripe.com/6oEdTD84T2Ji7Oo4gg">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
--->
   
 </p>
 

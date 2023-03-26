@@ -71,7 +71,7 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
-<form action="https://buy.stripe.com/6oEdTD84T2Ji7Oo4gg">
+<form action="https://buy.stripe.com/test_5kA4hE26HejA8r6144">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>

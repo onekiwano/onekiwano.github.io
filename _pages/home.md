@@ -86,7 +86,7 @@ We are working to have a bot capable to tell you when to buy and sell the crypto
 
   <!--
 <center>
-<form action="">
+<form action="https://buy.stripe.com/5kAdSl9AxfRS3E4aEE">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>

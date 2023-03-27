@@ -71,10 +71,18 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
+<form action="https://smart-dca-app.onrender.com">
+    <input type="submit" value="Try it!" />
+</form>
+</center>
+
+<!--
+<center>
 <form action="https://buy.stripe.com/5kAeW453AcA75UsfYY">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
+-->
   
 </p>
 
@@ -85,19 +93,14 @@ given the market conditions.
 We are working to have a bot capable to tell you when to buy and sell the cryptos you like most!
 
 </p>
-<center>
-<form action="https://smart-dca-app.onrender.com">
-    <input type="submit" value="Try it!" />
-</form>
-</center>
   
-<!-- 
+
 <center>
 <form action="https://buy.stripe.com/5kAdSl9AxfRS3E4aEE">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
--->
+
 
 
 <p>

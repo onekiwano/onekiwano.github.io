@@ -84,16 +84,20 @@ given the market conditions.
 <strong>AI Crypto Trader.</strong> We are building different forms of Artificial Intelligence (AI) based trading algorithms. 
 We are working to have a bot capable to tell you when to buy and sell the cryptos you like most!
 
- 
+</p>
+<center>
+<form action="https://smart-dca-app.onrender.com">
+    <input type="submit" value="Try it!" />
+</form>
+</center>
+  
+<!-- 
 <center>
 <form action="https://buy.stripe.com/5kAdSl9AxfRS3E4aEE">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
-
-
-</p>
-
+-->
 
 
 <p>

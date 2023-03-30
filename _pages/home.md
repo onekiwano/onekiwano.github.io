@@ -11,8 +11,6 @@ acknowledgements: ""
 ---
 
 
-<button class="button-87" role="button">Button 87</button>
-
 <br>
 <div class="row">
   <div class="col-xs-12">
@@ -74,7 +72,7 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
-  <button class="button87" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
+  <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
 </center>
 
 <!--

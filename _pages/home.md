@@ -55,10 +55,9 @@ Binance now, and more exchanges to come, to be able to backtest, livetest and li
 trading algorithms on crypto-currencies. We thought we could let you focus all your creativity and 
 effort on your trading strategies, and let us handle the rest, since this part is simpler 
 but necessary.
+ 
 <center>
-<form action="https://github.com/onekiwano/kiwano_portfolio">
-    <input type="submit" value="Start coding your strategy" />
-</form>
+  <button class="button-87" role="button" onclick="window.location.href='https://github.com/onekiwano/kiwano_portfolio';">Start coding your strategy</button>
 </center>
 
 

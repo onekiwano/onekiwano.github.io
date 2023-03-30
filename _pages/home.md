@@ -10,6 +10,10 @@ paper: true
 acknowledgements: ""
 ---
 
+<head>
+<link rel="stylesheet" style="text/css" href="../static/css/style.css">
+</head>
+
 <br>
 <div class="row">
   <div class="col-xs-12">
@@ -71,8 +75,7 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
-<form action="https://smart-dca-app.onrender.com">
-    <input type="submit" value="Try it!" />
+  <button class="button87" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
 </form>
 </center>
 

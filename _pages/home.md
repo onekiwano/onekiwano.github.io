@@ -10,9 +10,6 @@ paper: true
 acknowledgements: ""
 ---
 
-<head>
-<link rel="stylesheet" style="text/css" href="../static/css/style.css">
-</head>
 
 <br>
 <div class="row">

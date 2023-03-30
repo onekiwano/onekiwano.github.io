@@ -76,7 +76,6 @@ given the market conditions.
 
 <center>
   <button class="button87" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
-</form>
 </center>
 
 <!--

@@ -8,10 +8,10 @@ permalink: /
 bibtex: true
 paper: true
 acknowledgements: ""
----
 
+<center>
  <button class="button-52" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/3csg0FcKG11G5q0288';">Manage my account</button>
-
+</center>
 
 
 <br>
@@ -76,7 +76,7 @@ given the market conditions.
 
 <center>
   <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
-  <button class="button-42" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
+  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
 </center>
 
 

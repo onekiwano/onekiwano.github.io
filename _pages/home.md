@@ -122,11 +122,6 @@ the best arbitrage opportunities in the market.
 
 
 
-<center>
-  <button class="button-87" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/00geY8dpO54l0kU9AA';">Customer Portal</button>
-</center>
-
-
 <br>
 
 

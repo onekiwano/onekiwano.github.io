@@ -10,6 +10,10 @@ paper: true
 acknowledgements: ""
 ---
 
+ <button class="button-52" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/3csg0FcKG11G5q0288';">Manage my account</button>
+
+
+
 <br>
 <div class="row">
   <div class="col-xs-12">
@@ -47,6 +51,7 @@ Join the adventure on our Discord
 </div>
 
 
+
 <p>
 
 <strong>Kiwano Portfolio.</strong> The purpose of this project is to provide an interface with 
@@ -54,10 +59,9 @@ Binance now, and more exchanges to come, to be able to backtest, livetest and li
 trading algorithms on crypto-currencies. We thought we could let you focus all your creativity and 
 effort on your trading strategies, and let us handle the rest, since this part is simpler 
 but necessary.
+ 
 <center>
-<form action="https://github.com/onekiwano/kiwano_portfolio">
-    <input type="submit" value="Start coding your strategy" />
-</form>
+  <button class="button-87" role="button" onclick="window.location.href='https://github.com/onekiwano/kiwano_portfolio';">Start coding your strategy</button>
 </center>
 
 
@@ -71,10 +75,16 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
+  <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
+</center>
+
+<!--
+<center>
 <form action="https://buy.stripe.com/5kAeW453AcA75UsfYY">
     <input type="submit" value="Coming Soon" />
 </form>
 </center>
+-->
   
 </p>
 
@@ -84,20 +94,18 @@ given the market conditions.
 <strong>AI Crypto Trader.</strong> We are building different forms of Artificial Intelligence (AI) based trading algorithms. 
 We are working to have a bot capable to tell you when to buy and sell the cryptos you like most!
 
- 
+</p>
+  
+
 <center>
-<form action="https://buy.stripe.com/5kAdSl9AxfRS3E4aEE">
-    <input type="submit" value="Coming Soon" />
-</form>
+  <button class="button-87" role="button" onclick="window.location.href='https://buy.stripe.com/5kAdSl9AxfRS3E4aEE';">Coming Soon</button>
 </center>
 
-
-</p>
 
 
 
 <p>
-
+<br>
 <strong>Crypto Arbitrage Finder.</strong> Flash Loans have become a very popular way to make money in the crypto space.
 The problem is that you need to be very fast to take advantage of them. We are building a tool that will help you find
 the best arbitrage opportunities in the market.

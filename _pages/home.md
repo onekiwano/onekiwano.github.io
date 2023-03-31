@@ -10,6 +10,11 @@ paper: true
 acknowledgements: ""
 ---
 
+<center>
+  <button class="button-52" role="button" onclick="window.location.href='https://dashboard.stripe.com/settings/billing/portal';">Manage you account</button>
+</center>
+
+
 
 <br>
 <div class="row">
@@ -46,6 +51,7 @@ Join the adventure on our Discord
     <h2>Products</h2>
   </div>
 </div>
+
 
 
 <p>

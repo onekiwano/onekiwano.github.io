@@ -113,6 +113,11 @@ the best arbitrage opportunities in the market.
 </p>
 
 
+<center>
+<form action="https://billing.stripe.com/p/login/00geY8dpO54l0kU9AA">
+    <input type="submit" value="Customer Portal" />
+</form>
+</center>
 
 
 <br>

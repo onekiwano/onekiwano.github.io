@@ -265,8 +265,8 @@ pre {
 }
 
 .button-52:hover:after {
-  top: 0px;
-  left: 0px;
+  top: 120px;
+  left: 800px;
 }
 
 @media (min-width: 768px) {

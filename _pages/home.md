@@ -10,7 +10,7 @@ paper: true
 acknowledgements: ""
 ---
 
- <button class="button-52" role="button" onclick="window.location.href='https://dashboard.stripe.com/settings/billing/portal';">Manage you account</button>
+ <button class="button-52" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/3csg0FcKG11G5q0288';">Manage my account</button>
 
 
 

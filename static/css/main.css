@@ -245,8 +245,8 @@ pre {
   border: 1px solid black;
   cursor: pointer;
   position: absolute;
-  top: 0;
-  left: 750;
+  top: 0px;
+  left: 200px;
   background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
@@ -261,7 +261,7 @@ pre {
   position: absolute;
   height: 100%;
   top: 7px;
-  left: 757px;
+  left: 207px;
   transition: 0.2s;
 }
 

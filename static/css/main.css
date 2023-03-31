@@ -245,8 +245,8 @@ pre {
   border: 1px solid black;
   cursor: pointer;
   position: relative;
-  top: 30px;
-  left: 30px;
+  top: 0px;
+  left: 0px;
   z-index=1;
   background-color: rgba(0, 0, 0, 0);
   user-select: none;

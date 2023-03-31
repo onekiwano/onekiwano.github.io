@@ -245,7 +245,9 @@ pre {
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 750
   background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
@@ -265,8 +267,8 @@ pre {
 }
 
 .button-52:hover:after {
-  top: 120px;
-  left: 200px;
+  top: 0px;
+  left: 0px;
 }
 
 @media (min-width: 768px) {

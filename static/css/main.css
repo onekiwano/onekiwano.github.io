@@ -244,7 +244,7 @@ pre {
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 100px;
   left: 800px;
   background-color: rgba(0, 0, 0, 0);

@@ -78,14 +78,13 @@ given the market conditions.
   <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
 </center>
 
-<!--
 <center>
-<form action="https://buy.stripe.com/5kAeW453AcA75UsfYY">
-    <input type="submit" value="Coming Soon" />
+<form action="https://buy.stripe.com/8wMaG98wt5dea2s146">
+    <input type="submit" value="Subscribe" />
 </form>
 </center>
--->
-  
+
+
 </p>
 
 
@@ -122,11 +121,8 @@ the best arbitrage opportunities in the market.
 
 
 
-
 <center>
-<form action="https://billing.stripe.com/p/login/00geY8dpO54l0kU9AA">
-    <input type="submit" value="Customer Portal" />
-</form>
+  <button class="button-87" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/00geY8dpO54l0kU9AA';">Customer Portal</button>
 </center>
 
 

@@ -80,7 +80,8 @@ given the market conditions.
   <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
 </center>
 
-
+<br>
+<br>
 
 
 

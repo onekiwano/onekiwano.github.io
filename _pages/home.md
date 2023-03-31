@@ -76,10 +76,7 @@ given the market conditions.
 
 <center>
   <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
-
-<form action="https://buy.stripe.com/28oaG9eURaxydeEeUY">
-    <input type="submit" value="Subscribe" />
-</form>
+  <button class="button-42" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
 </center>
 
 

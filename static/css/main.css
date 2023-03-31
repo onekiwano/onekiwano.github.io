@@ -244,9 +244,10 @@ pre {
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: relative;
+  top: 50px;
+  left: 900px;
+  z-index=1;
   background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;

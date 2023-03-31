@@ -79,7 +79,7 @@ given the market conditions.
 </center>
 
 <center>
-<form action="https://buy.stripe.com/8wMaG98wt5dea2s146">
+<form action="https://buy.stripe.com/28oaG9eURaxydeEeUY">
     <input type="submit" value="Subscribe" />
 </form>
 </center>

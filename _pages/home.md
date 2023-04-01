@@ -20,8 +20,8 @@ margin-left: 55%;
 }
 .myDiv1 {
 position: relative; 
-margin-top: -2%;
-margin-left: 20%;
+margin-top: 2%;
+margin-left: 15%;
 }
 
 </style>
@@ -91,12 +91,13 @@ We improved this idea to adjust the amount of money you invest in a crypto-curre
 You tell us the maximum amount of money you want to invest per day, and we tell you how much to invest in BTC
 given the market conditions.
 
+<center>
+  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
+</center>
 <div class=myDiv1>
   <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
 </div>
-<div class=myDiv2>
-  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
-</div>
+
 
 <br>
 <br>

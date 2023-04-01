@@ -15,7 +15,8 @@ acknowledgements: ""
   .myDiv {
 position: absolute; 
 margin-top: 1%;
-margin-left: 70%;
+width: 100%; 
+margin-left: 60%;
 }
 .myDiv1 {
 position: absolute; 

@@ -10,10 +10,27 @@ paper: true
 acknowledgements: ""
 ---
 
-<center>
- <button class="button-52" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/3csg0FcKG11G5q0288';">Manage my account</button>
-</center>
+<head>
+<style>
+  .myDiv {
+position: absolute; 
+margin-top: 1%;
+margin-left: 70%;
+}
+.myDiv1 {
+position: absolute; 
+margin-left: 35%;
+}
+.myDiv2 {
+position: absolute; 
+margin-left: 55%;
+}
+</style>
+</head>
 
+<div class=myDiv>
+ <button class="button-52" role="button" onclick="window.location.href='https://billing.stripe.com/p/login/3csg0FcKG11G5q0288';">Manage my account</button>
+</div>
 
 <br>
 <div class="row">
@@ -75,13 +92,16 @@ We improved this idea to adjust the amount of money you invest in a crypto-curre
 You tell us the maximum amount of money you want to invest per day, and we tell you how much to invest in BTC
 given the market conditions.
 
-<center>
+<div class=myDiv1>
   <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
+</div>
+<div class=myDiv2>
   <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
-</center>
+</div>
+
 
 <br>
-<br>
+
 
 
 

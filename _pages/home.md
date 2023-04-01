@@ -16,15 +16,17 @@ acknowledgements: ""
 position: absolute; 
 margin-top: 1%;
 width: 100%; 
-margin-left: 60%;
+margin-left: 50%;
 }
 .myDiv1 {
 position: absolute; 
-margin-left: 35%;
+margin-top: -2%;
+margin-left: 20%;
 }
 .myDiv2 {
 position: absolute; 
-margin-left: 55%;
+margin-top: -2%;
+margin-left: 30%;
 }
 </style>
 </head>

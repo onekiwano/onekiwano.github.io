@@ -16,18 +16,14 @@ acknowledgements: ""
 position: relative; 
 margin-top: 1%;
 width: 100%; 
-margin-left: 50%;
+margin-left: 55%;
 }
 .myDiv1 {
 position: relative; 
 margin-top: -2%;
 margin-left: 20%;
 }
-.myDiv2 {
-position: relative; 
-margin-top: -2%;
-margin-left: 30%;
-}
+
 </style>
 </head>
 
@@ -102,7 +98,7 @@ given the market conditions.
   <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
 </div>
 
-
+<br>
 <br>
 
 

@@ -20,8 +20,8 @@ margin-left: 70%;
 }
 .myDiv1 {
 position: relative; 
-margin-top: -15%;
-margin-left: 45%;
+margin-top: -7%;
+margin-left: 55%;
 }
 
 </style>
@@ -100,11 +100,6 @@ given the market conditions.
 
 
 <br>
-<br>
-
-
-
-
 
 </p>
 
@@ -118,7 +113,7 @@ We are working to have a bot capable to tell you when to buy and sell the crypto
   
 
 <center>
-  <button class="button-87" role="button" onclick="window.location.href='https://buy.stripe.com/5kAdSl9AxfRS3E4aEE';">Coming Soon</button>
+  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/5kAdSl9AxfRS3E4aEE';">Coming Soon</button>
 </center>
 
 

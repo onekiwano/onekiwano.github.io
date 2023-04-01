@@ -20,7 +20,7 @@ margin-left: 75%;
 }
 .myDiv1 {
 position: relative; 
-margin-top: -5%;
+margin-top: -7%;
 margin-left: 65%;
 }
 

@@ -16,7 +16,7 @@ acknowledgements: ""
 position: relative; 
 margin-top: 1%;
 width: 100%; 
-margin-left: 75%;
+margin-left: 72%;
 }
 .myDiv1 {
 position: relative; 
@@ -113,10 +113,10 @@ We are working to have a bot capable to tell you when to buy and sell the crypto
   
 
 <center>
-  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/5kAdSl9AxfRS3E4aEE';">Coming Soon</button>
+  <button class="button-52" role="button" onclick="window.location.href='';">Coming Soon</button>
 </center>
 
-
+<!-- https://buy.stripe.com/5kAdSl9AxfRS3E4aEE -->
 
 
 <p>

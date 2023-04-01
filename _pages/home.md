@@ -13,18 +13,18 @@ acknowledgements: ""
 <head>
 <style>
   .myDiv {
-position: absolute; 
+position: relative; 
 margin-top: 1%;
 width: 100%; 
 margin-left: 50%;
 }
 .myDiv1 {
-position: absolute; 
+position: relative; 
 margin-top: -2%;
 margin-left: 20%;
 }
 .myDiv2 {
-position: absolute; 
+position: relative; 
 margin-top: -2%;
 margin-left: 30%;
 }

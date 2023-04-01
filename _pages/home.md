@@ -16,12 +16,12 @@ acknowledgements: ""
 position: relative; 
 margin-top: 1%;
 width: 100%; 
-margin-left: 65%;
+margin-left: 70%;
 }
 .myDiv1 {
 position: relative; 
-margin-top: 5%;
-margin-left: 15%;
+margin-top: -15%;
+margin-left: 45%;
 }
 
 </style>

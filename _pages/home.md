@@ -16,7 +16,7 @@ acknowledgements: ""
 position: relative; 
 margin-top: 1%;
 width: 100%; 
-margin-left: 72%;
+margin-left: 65%;
 }
 .myDiv1 {
 position: relative; 
@@ -92,10 +92,10 @@ You tell us the maximum amount of money you want to invest per day, and we tell 
 given the market conditions.
 
 <center>
-  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>
+  <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
 </center>
 <div class=myDiv1>
-  <button class="button-87" role="button" onclick="window.location.href='https://smart-dca-app.onrender.com';">Try it!</button>
+  <button class="button-52" role="button" onclick="window.location.href='https://buy.stripe.com/28oaG9eURaxydeEeUY';">Subscribe</button>  
 </div>
 
 

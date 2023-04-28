@@ -34,7 +34,7 @@ margin-left: 65%;
 <br>
 <div class="row">
   <div class="col-xs-12">
-    <center><img src="{{ "/static/img/banner/logo.png" | prepend:site.baseurl }}" style="width:55px;height:55px;"><h1><b>Kiwano</b></h1></center>
+    <center><img src="{{ "/static/img/banner/discord-logo.png" | prepend:site.baseurl }}" style="width:55px;height:55px;"><h1><b>Kiwano</b></h1></center>
     <center><h3>The fruit of the crypto tree</h3></center>
   </div>
 </div>

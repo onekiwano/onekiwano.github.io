@@ -54,7 +54,7 @@ margin-left: 65%;
 <center><span style="color:#3a92d6;font-weight:400;">
 Join the adventure on our Discord
 <a href="https://discord.gg/ZmJWUCxEZB">
-<img src="https://it.moobion.com/wp-content/uploads/2020/11/discord-logo.png" alt="https://discord.gg/698CKv8t" style="width:48px;height:48px;">
+<img src="/static/img/banner/discord-logo.png" alt="https://discord.gg/698CKv8t" style="width:48px;height:48px;">
 </a>
 </span></center>
 

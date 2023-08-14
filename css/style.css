@@ -464,6 +464,7 @@ a.navbar-brand {
 	margin: 0 2px;
 }
 
+/*
 .top-header.fixed-menu {
 	width: 100%;
 	position: fixed;
@@ -477,7 +478,7 @@ a.navbar-brand {
 	background: #fff;
 	z-index: 20;
 }
-
+*/
 .header_bottom {
     float: left;
     width: 100%;
@@ -789,7 +790,7 @@ a.navbar-brand {
     color: #fff;
     padding: 7px 25px;
     float: left;
-    width: 220px;
+    width: 180px;
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -1172,7 +1173,7 @@ figure.effect-service:hover {
 
 .services_blog h4 {
     color: #000;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: 500;
     box-shadow: 0 0 15px -8px #000;

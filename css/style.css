@@ -2089,6 +2089,15 @@ h3.small_heading {
 	line-height: normal;
 }
 
+.margin-top_00 {
+	margin-top: 0px;
+}
+
+
+.margin-top_10 {
+	margin-top: 10px;
+}
+
 .margin-top_20 {
 	margin-top: 20px;
 }
@@ -2096,6 +2105,11 @@ h3.small_heading {
 .margin-top_30 {
 	margin-top: 30px;
 }
+
+.margin-top_130 {
+	margin-top: 130px;
+}
+
 
 .margin-bottom_30 {
 	margin-bottom: 30px;

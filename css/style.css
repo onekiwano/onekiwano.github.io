@@ -23,6 +23,12 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.logo-style{
+filter: invert(91%) sepia(12%) saturate(809%) hue-rotate(323deg) brightness(103%) contrast(98%);
+/*fill: url(#gradient-horizontal) gray;*/
+}
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+
 body {
 	color: #666666;
 	font-size: 15px;

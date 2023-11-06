@@ -1,0 +1,65 @@
+<!-- donate-bitcoin Copyright (GPL) 2016  Nathan Robinson -->
+<DOCTYPE html>
+  <head>
+	  <style>
+		  html * {
+			color: #2020131;
+			font-family: Nunito, sans-serif;
+		  }
+    </style>
+    <meta charset="UTF-8">
+    <title>Donate a few SATS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	<link rel="icon" type="image/svg+xml" src="images/logo/logo_name.svg"/>
+  </head>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
+<script src="index.js"></script>
+<body onload="donate()">
+<center>
+<div id="donatemessage"></div>
+<p style="font-size:140%;">
+
+We worked hard to provide a <i>free</i> email service that performs better than the DCA! 📈💰
+
+ <br>💪 This service will remain free, as long as we're alive! 💪<br><br>
+ 
+ Buy us a ☕ !
+</p>
+<div id="donation">
+  <input type="text" name="donatebox" id="donatebox" onchange="donate()" value="5">
+  <br><br><img style="cursor:pointer" id="donationbutton" height="30px" onclick="donate()" src="">
+</div>
+<p style="font-size:120%;">
+🙏 It's a <i>free</i> service, but your support is <b>priceless</b>.🙏<br><br>
+
+<img src="images/bitcoincryptocurrency.gif" style="width: 3vw; min-width: 10px;" alt="image"><br>
+
+</p>
+<div id="donatetext"></div>
+<br>
+<div id="qrcodePlaceHolder"></div>
+</center>
+
+<script>
+document.getElementById("donatemessage").innerHTML = "<h1>Donate ₿ to " + organization +"</h1>";
+
+if (!isNaN(parseFloat(params.amount)))
+{
+  document.getElementById("donatebox").value = parseFloat(params.amount);
+}
+
+</script>
+<br>
+<br>
+<center>
+	<a class="navbar-brand" href="index.html"><img src="images/logo/logo_name.svg" style="width: 20vw; min-width: 100px;" alt="image"></a>
+	<br>
+</center>
+<br><br>
+</body>
+<html>
